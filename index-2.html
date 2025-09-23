@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from extraordinary-fairy-c25c85.netlify.app/index-2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Sep 2025 12:00:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtGallery - website design</title>
+    <link rel="shortcut icon" href="img/global/favicon.png" type="image/x-icon">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Swiper CSS -->
+    <link  rel="stylesheet"  href="css/swiper-bundle.min.css">
+    <!-- Glightbox CSS -->
+     <link rel="stylesheet" href="css/glightbox.min.css">
+    <!-- Custom Theme CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Starting of the Preloader -->
+    <div class="preloader">
+        <img src="img/global/preloader.gif" alt="Loading..." class="preloader__img">
+    </div>
+    <!-- End of the Preloader -->
+
+     <!-- Starting of the Header One Area -->
+    <header id="header" class="header header--one">
+        <div class="header__container container">
+            <div class="header__logo">
+                <a href="index.html" class="logo">
+                    <img src="img/global/logo.png" alt="Maxfix Logo" class="logo__img">
+                </a>
+            </div>
+
+            <ul class="menu main-menu">
+                <li class="menu-item menu-item-has-children">
+                    <a href="#">Home</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item "><a href='index.html'>Home 01</a></li>
+                        <li class="menu-item current-menu-item"><a href='index-2.html'>Home 02</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href='about-us.html'>About</a></li>
+                <li class="menu-item"><a href='services.html'>Services</a></li>
+                <li class="menu-item menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href='blog.html'>Blog</a></li>
+                        <li class="menu-item"><a href='blog-details.html'>Blog Details</a></li>
+                        <li class="menu-item"><a href='portfolio.html'>Portfolio</a></li>
+                        <li class="menu-item"><a href='portfolio-details.html'>Portfolio Details</a></li>
+                        <li class="menu-item"><a href='services-details.html'>Services Details</a></li>
+                        <li class="menu-item"><a href='faq.html'>Faq</a></li>
+                        <li class="menu-item"><a href='pricing-plan.html'>Pricing Plan</a></li>
+                        <li class="menu-item"><a href='team-member.html'>Team Member</a></li>
+                        <li class="menu-item"><a href='404.html'>404</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href='contact.html'>Contact</a></li>
+            </ul>
+
+            <div class="header__menu-btn">
+                <button class="menu-btn" id="menuToggle">
+                    <span class="menu-btn__text">MENU <img src="img/global/lines.png" alt="" class="menu-line"></span>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="12" viewBox="0 0 50 12" fill="none">
+                        <line y1="2" x2="50" y2="2" stroke="black" stroke-width="1"/>
+                        <line y1="10" x2="50" y2="10" stroke="black" stroke-width="1"/>
+                    </svg> -->
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- End of the Header Two Area -->
+
+    <!-- Starting of the Mobile Offcanvas -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu__header">
+        <div class="main-nav__logo">
+            <a href="index.html" class="logo">
+                <img src="img/global/logo.png" alt="Maxfix Logo" class="logo__img">
+            </a>
+        </div>
+        <div class="mobile-menu__close" id="closeMobile">✕</div>
+      </div>
+
+      <ul class="mobile-menu__list">
+        <li class="menu-item menu-item-has-children">
+            <a href="#">Home</a>
+            <ul class="sub-menu">
+                <li class="menu-item current-menu-item"><a href='index-2.html'>Home 01</a></li>
+                <li class="menu-item"><a href='index-2.html'>Home 02</a></li>
+            </ul>
+        </li>
+        <li class="menu-item"><a href='about-us.html'>About</a></li>
+        <li class="menu-item"><a href='services.html'>Services</a></li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#">Pages</a>
+          <ul class="sub-menu">
+            <li class="menu-item"><a href='blog.html'>Blog</a></li>
+            <li class="menu-item"><a href='blog-details.html'>Blog Details</a></li>
+            <li class="menu-item"><a href='portfolio.html'>Portfolio</a></li>
+            <li class="menu-item"><a href='portfolio-details.html'>Portfolio Details</a></li>
+            <li class="menu-item"><a href='services-details.html'>Services Details</a></li>
+            <li class="menu-item"><a href='faq.html'>Faq</a></li>
+            <li class="menu-item"><a href='pricing-plan.html'>Pricing Plan</a></li>
+            <li class="menu-item"><a href='team-member.html'>Team Members</a>
+            <li class="menu-item"><a href='404.html'>404</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href='contact.html'>Contact</a></li>
+      </ul>
+
+      <!-- Contact Info: always visible -->
+       <div class="mobile-menu__contact">
+          <a href="#" class="mobile-menu__contact-link">
+            <span class="icon-wrap">
+                <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span>Dhaka, Bangladesh</span>
+          </a>
+          <a href="mailto:hello@cruvagency.com" class="mobile-menu__contact-link">
+            <span class="icon-wrap">
+                <i class="fa-solid fa-envelope"></i>
+            </span>
+            <span>hello@maxfix.com</span>
+          </a>
+          <a href="tel:5055550125" class="mobile-menu__contact-link">
+            <span class="icon-wrap">
+                <i class="fa-solid fa-phone"></i>
+            </span>
+            <span>(505) 555-0125</span>
+          </a>
+      </div>
+    </div>
+    <!-- End of the Mobile Offcanvas -->
+
+    <main class="main">
+
+      <!-- Starting of the Hero Two Area -->
+      <section class="hero hero--two">
+        <div class="hero__container container">
+          <div class="hero__title-wrap">
+            <h1 class="hero__title">
+              <span class="hero__title-text">Partnering</span>
+              <span class="hero__title-text hero__title-text-small"
+                >Artists & Galleries</span
+              >
+            </h1>
+            <div class="hero__image-wrap">
+              <img
+                class="hero__image"
+                src="img/hero/hero-home2-1.png"
+                alt="Digital Sphere">
+            </div>
+          </div>
+
+          <div class="hero__subtitle-wrap">
+            <div class="hero__video-thumb">
+              <img src="img/hero/hero-home2-video.png" alt="Play Video">
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                class="hero__video-icon glightbox"
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 70 70"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="35" cy="35" r="35" fill="white" />
+                  <path
+                    d="M45.25 35.433C45.5833 35.2406 45.5833 34.7594 45.25 34.567L30.25 25.9067C29.9167 25.7143 29.5 25.9548 29.5 26.3397V43.6603C29.5 44.0452 29.9167 44.2857 30.25 44.0933L45.25 35.433Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+            </div>
+            <span class="hero__subtitle"><img src="img/global/logo.png" alt=""></span>
+          </div>
+        </div>
+
+        <div class="breadcrumbs__container-custom container" data-bg-img="img/portfolio/portfolio-hero.png">
+                <div class="breadcrumbs__card avatar-card">
+                    <div class="breadcrumbs__avatars avatars">
+                        <img src="img/global/avatar-2.png" alt="User" class="breadcrumbs__avatar avatar">
+                        <img src="img/global/avatar-3.png" alt="User" class="breadcrumbs__avatar avatar">
+                        <img src="img/global/avatar-4.png" alt="User" class="breadcrumbs__avatar avatar">
+                        <img src="img/global/avatar-5.png" alt="Icon" class="breadcrumbs__avatar avatar breadcrumbs__avatar--icon">
+                    </div>
+
+                    <div class="breadcrumbs__fact">
+                        <span class="breadcrumbs__stat ">10k+</span>
+                        <span class="breadcrumbs__text ">Trusted customers world-wide</span>
+                        <a href="services.html" class="breadcrumbs__btn error__btn ">
+                            <span class="error__btn btn-arrow__text">Get Products <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+    
+                    </div>
+                </div>
+            </div>
+      </section>
+      <!-- End of the Hero Two Area -->
+
+      <!-- Starting of the Keywords Area -->
+     <section class="keywords">
+            <div class="keywords__container container">
+                <h2 class="keywords__title visually-hidden">Keywords</h2>
+
+                <div class="keywords__wrapper">
+                    <div class="keywords__track">
+                        <div class="keywords__group">
+                        <span class="keywords__item">AGENCY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">BRANDING</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">TYPOGRAPHY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">DESIGN</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">INTERACTION</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">CREATIVITY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">STRATEGY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">DEVELOPMENT</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">DIGITAL AGENCY</span>
+                        </div>
+                        <!-- Duplicate for smooth scrolling -->
+                        <div class="keywords__group">
+                        <span class="keywords__item">AGENCY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">BRANDING</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">TYPOGRAPHY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">DESIGN</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">INTERACTION</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">CREATIVITY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">STRATEGY</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">DEVELOPMENT</span>
+                        <span class="keywords__separator"><img src="img/global/favicon.png" alt=""></span>
+                        <span class="keywords__item">DIGITAL AGENCY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- End of the Keywords Area -->
+
+      <!-- Starting of the About Two Area -->
+      <section class="about about--two">
+        <div class="about__container container">
+          <div class="about__title-wrap">
+            <h2 class="about__title title">
+              We are a passionate collective of curators, artists, and creatives committed to shaping unforgettable art experiences. Our goal is to connect people with art in ways that inspire, educate, and evoke emotion — transforming spaces into cultural destinations.
+            </h2>
+          </div>
+
+          <div class="about__item-area">
+            <div class="about__item-wrap">
+              <div class="about__item">
+                <h3 class="about__item-title"> // Our Mission</h3>
+                <p class="about__item-text">
+                 We curate purposeful exhibitions and creative programs that celebrate artistic expression, nurture talent, and engage communities.
+                </p>
+              </div>
+            </div>
+
+            <div class="about__item-wrap">
+              <div class="about__item">
+                <h3 class="about__item-title">// Our Vision</h3>
+                <p class="about__item-text">
+                  Our vision is to make art more accessible and meaningful, creating spaces that encourage exploration, dialogue, and connection between artists and audiences.
+                </p>
+              </div>
+            </div>
+
+            <div class="about__item-wrap">
+              <div class="about__item">
+                <h3 class="about__item-title">// Our Arards</h3>
+                <p class="about__item-text">
+                 Recognized by galleries and cultural institutions for excellence in curation, innovative exhibition design, and impactful contributions to the art world.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of the About Two Area -->
+
+      <!-- Starting of the Portfolio Area -->
+      <section class="portfolio portfolio--one">
+
+        <div class="portfolio__container container">
+          <h2 class="portfolio__title title">
+            Creating immersive art experiences that inspire audiences & celebrate creativity since
+          </h2>
+          <span class="portfolio__year title-gradient">{2022–2025}</span>
+        </div>
+
+        <div class="portfolio__container-custom container">
+          <div class="portfolio__grid">
+
+            <div class="portfolio__item">
+              <div class="portfolio__thumb-wrap">
+                <img
+                  class="portfolio__thumb"
+                  src="img/portfolio/portfolio-1.png"
+                  alt="Digital Printing">
+                <span class="portfolio__tag"
+                  >Exhibition // Contemporary Art // Abstract Forms</span
+                >
+
+                <a href="#" class="portfolio__link-arrow">
+                  <svg
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                    fill="none"
+                  >
+                    <circle cx="38" cy="38" r="38" fill="white" />
+                    <path
+                      d="M28 28H47M47 28V47M47 28L28 47"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="portfolio__content-wrap">
+                <div class="portfolio__item-title-wrap">
+                  <span class="portfolio__index">01</span>
+                  <a class='portfolio__item-link' href='portfolio-details.html'>
+                    <h3 class="portfolio__item-title">National Gallery</h3>
+                  </a>
+                </div>
+                <div class="portfolio__year-tag">
+                  <span class="portfolio__year-tag-bullet">•</span>
+                  <span class="portfolio__year-tag-text">2022</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio__item">
+              <div class="portfolio__thumb-wrap">
+                <img
+                  class="portfolio__thumb"
+                  src="img/portfolio/portfolio-2.png"
+                  alt="Bottle Mockup Design">
+                <span class="portfolio__tag"
+                  >Showcase // Classic Art Revival // Oil & Canvas</span
+                >
+
+                <a href="#" class="portfolio__link-arrow">
+                  <svg
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                    fill="none"
+                  >
+                    <circle cx="38" cy="38" r="38" fill="white" />
+                    <path
+                      d="M28 28H47M47 28V47M47 28L28 47"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="portfolio__content-wrap">
+                <div class="portfolio__item-title-wrap">
+                  <span class="portfolio__index">02</span>
+                  <a class='portfolio__item-link' href='portfolio-details.html'>
+                    <h3 class="portfolio__item-title">Art District Hall</h3>
+                  </a>
+                </div>
+                <div class="portfolio__year-tag">
+                  <span class="portfolio__year-tag-bullet">•</span>
+                  <span class="portfolio__year-tag-text">2022</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio__item">
+              <div class="portfolio__thumb-wrap">
+                <img
+                  class="portfolio__thumb"
+                  src="img/portfolio/portfolio-3.png"
+                  alt="Bottle Mockup Design">
+                <span class="portfolio__tag"
+                  >Gallery // Photography // Visual Storytelling</span
+                >
+
+                <a href="#" class="portfolio__link-arrow">
+                  <svg
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                    fill="none"
+                  >
+                    <circle cx="38" cy="38" r="38" fill="white" />
+                    <path
+                      d="M28 28H47M47 28V47M47 28L28 47"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="portfolio__content-wrap">
+                <div class="portfolio__item-title-wrap">
+                  <span class="portfolio__index">03</span>
+                  <a class='portfolio__item-link' href='portfolio-details.html'>
+                    <h3 class="portfolio__item-title">City Museum</h3>
+                  </a>
+                </div>
+                <div class="portfolio__year-tag">
+                  <span class="portfolio__year-tag-bullet">•</span>
+                  <span class="portfolio__year-tag-text">2024</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio__item">
+              <div class="portfolio__thumb-wrap">
+                <img
+                  class="portfolio__thumb"
+                  src="img/portfolio/portfolio-4.png"
+                  alt="Bottle Mockup Design">
+                <span class="portfolio__tag"
+                  >Exhibition // Sculpture // Geometric Abstractions</span
+                >
+
+                <a href="#" class="portfolio__link-arrow">
+                  <svg
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                    fill="none"
+                  >
+                    <circle cx="38" cy="38" r="38" fill="white" />
+                    <path
+                      d="M28 28H47M47 28V47M47 28L28 47"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="portfolio__content-wrap">
+                <div class="portfolio__item-title-wrap">
+                  <span class="portfolio__index">04</span>
+                  <a class='portfolio__item-link' href='portfolio-details.html'>
+                    <h3 class="portfolio__item-title">Global Art Fair</h3>
+                  </a>
+                </div>
+                <div class="portfolio__year-tag">
+                  <span class="portfolio__year-tag-bullet">•</span>
+                  <span class="portfolio__year-tag-text">2025</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="portfolio__btn-wrap">
+            <a class='portfolio__btn btn__bluet' href='portfolio.html'>
+              <span class="portfolio__btn-bluet bluet"></span>
+              <span class="portfolio__btn-text btn-text"
+                >Explore Art Shows</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End of the Portfolio Area -->
+
+      <!-- Starting of the Fact Area -->
+      <section class="fact">
+          <div class="fact__container container">
+              <h2 class="fact__title visually-hidden">Fact</h2>
+
+              <div class="fact__grid">
+                  <div class="fact__item">
+                      <div class="fact__year">2016</div>
+                      <div class="fact__title">Year of Inception</div>
+                      <div class="fact__subtitle">Celebrating nearly a decade of showcasing art and culture</div>
+                      <div class="fact__avatars">
+                          <img src="img/fact/avatar-1.png" alt="User" class="fact__avatar">
+                          <img src="img/fact/avatar-2.png" alt="User" class="fact__avatar">
+                          <img src="img/fact/avatar-3.png" alt="User" class="fact__avatar">
+                          <img src="img/fact/avatar-4.png" alt="Icon" class="fact__avatar">
+                      </div>
+                  </div>
+
+                  <div class="fact__item">
+                      <div class="fact__number">299</div>
+                      <div class="fact__title">Exhibitions Curated</div>
+                      <div class="fact__subtitle">From solo shows to international collaborations</div>
+                      <div class="fact__icons">
+                          <img src="img/fact/avatar-5.png" alt="User" class="fact__icon">
+                          <img src="img/fact/avatar-6.png" alt="User" class="fact__icon">
+                          <img src="img/fact/avatar-7.png" alt="User" class="fact__icon">
+                          <img src="img/fact/avatar-8.png" alt="User" class="fact__icon">
+                      </div>
+                  </div>
+
+                  <div class="fact__item">
+                      <div class="fact__number">169</div>
+                      <div class="fact__title">Artists Represented</div>
+                      <div class="fact__subtitle">Talented creators who trust us with their work</div>
+                      <div class="fact__avatars">
+                          <img src="img/fact/avatar-9.png" alt="User" class="fact__avatar">
+                          <img src="img/fact/avatar-10.png" alt="User" class="fact__avatar">
+                          <img src="img/fact/avatar-11.png" alt="User" class="fact__avatar">
+                          <img src="img/fact/avatar-12.png" alt="User" class="fact__avatar">
+                      </div>
+                  </div>
+
+                  <div class="fact__item">
+                      <div class="fact__number">13</div>
+                      <div class="fact__title">Ongoing Projects</div>
+                      <div class="fact__subtitle">Exciting exhibitions and digital showcases in progress</div>
+                      <div class="fact__icons">
+                          <img src="img/fact/avatar-13.png" alt="Icon" class="fact__icon">
+                          <img src="img/fact/avatar-14.png" alt="User" class="fact__icon">
+                          <img src="img/fact/avatar-15.png" alt="User" class="fact__icon">
+                          <img src="img/fact/avatar-16.png" alt="User" class="fact__icon">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- End of the Fact Area -->
+
+      <!-- Starting of the Services Two Area -->
+      <section class="services services--two"  >
+        <div class="services__container container">
+          <p class="services__text title">
+            We create immersive art experiences designed to inspire audiences, celebrate creativity, and make a lasting cultural impact.
+          </p>
+          <h2 class="services__title title-gradient">Services</h2>
+
+          <div class="services__box">
+            <!-- Tabs -->
+            <div class="services__tabs">
+              <button class="services__tab active" data-tab="1">
+                Exhibition Curation
+              </button>
+              <button class="services__tab" data-tab="2">Gallery Space Design</button>
+              <button class="services__tab" data-tab="3">Art Workshops & Events</button>
+              <button class="services__tab" data-tab="4">Art Photography & Documentation</button>
+              <button class="services__tab" data-tab="5">Curatorial Strategy</button>
+            </div>
+
+            <!-- Content -->
+            <div class="services__contents">
+
+              <div class="services__content active" data-content="1">
+                <img src="img/services/services-4.png" alt="Services Image">
+                <p class="services__details-text">
+                 We design and organize themed exhibitions that showcase both emerging and established artists, creating meaningful experiences for visitors.
+                </p>
+
+                <div class="services__tags">
+                  <span class="services__tag">// Gallery Tours</span>
+                  <span class="services__tag">Artist Showcases</span>
+                  <span class="services__tag">Thematic Exhibitions</span>
+                </div>
+              </div>
+
+              <div class="services__content" data-content="2">
+                <img
+                  class="services__img"
+                  src="img/services/services-15.png"
+                  alt="Services Image">
+                <p class="services__details-text">
+                  Our team crafts user-focused interfaces and responsive
+                  frameworks, ensuring intuitive interaction across every
+                  platform and device experience.
+                </p>
+
+                <div class="services__tags">
+                  <span class="services__tag">UI Design</span>
+                  <span class="services__tag">Prototyping</span>
+                  <span class="services__tag">Interaction</span>
+                  <span class="services__tag">Responsive Grid</span>
+                </div>
+              </div>
+
+              <div class="services__content" data-content="3">
+                <img src="img/services/services-3.png" alt="Services Image">
+                <p class="services__details-text">
+                  From content structure to seamless navigation, we develop
+                  wireframes and sitemaps that build clarity and enhance digital
+                  flow.
+                </p>
+
+                <div class="services__tags">
+                  <span class="services__tag">Wireframing</span>
+                  <span class="services__tag">Sitemaps</span>
+                  <span class="services__tag">UX Flow</span>
+                  <span class="services__tag">Page Layout</span>
+                </div>
+              </div>
+
+              <div class="services__content" data-content="4">
+                <img src="img/services/services-14.png" alt="Services Image">
+                <p class="services__details-text">
+                  We deliver packaging designs that reflect brand personality
+                  and ensure product appeal with a balance of form and function.
+                </p>
+
+                <div class="services__tags">
+                  <span class="services__tag">Box Design</span>
+                  <span class="services__tag">Label Concept</span>
+                  <span class="services__tag">Retail Ready</span>
+                  <span class="services__tag">Eco Design</span>
+                </div>
+              </div>
+
+              <div class="services__content" data-content="5">
+                <img src="img/services/services-13.png" alt="Services Image">
+                <p class="services__details-text">
+                  Through compelling content and targeted messaging, we craft
+                  campaigns that convert audiences and strengthen digital brand
+                  presence.
+                </p>
+
+                <div class="services__tags">
+                  <span class="services__tag">Content Plan</span>
+                  <span class="services__tag">SEO Writing</span>
+                  <span class="services__tag">Campaign Copy</span>
+                  <span class="services__tag">Ad Creatives</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of the Services Two Area -->
+
+      <!-- Starting of the Brands Area -->
+      <section class="brands">
+        <div class="brands__container container">
+          <h2 class="brands__title">(Loved by Art Enthusiasts & Creators Worldwide)</h2>
+          <div class="brands__list">
+            <div class="brands__item">
+              <img
+                src="img/brand/brand-7.png"
+                alt="Logoipsum 1"
+                class="brands__image">
+            </div>
+            <div class="brands__item">
+              <img
+                src="img/brand/brand-8.png"
+                alt="Logoipsum 2"
+                class="brands__image">
+            </div>
+            <div class="brands__item">
+              <img
+                src="img/brand/brand-9.png"
+                alt="Logoipsum 3"
+                class="brands__image">
+            </div>
+            <div class="brands__item">
+              <img
+                src="img/brand/brand-10.png"
+                alt="Logoipsum 4"
+                class="brands__image">
+            </div>
+            <div class="brands__item">
+              <img
+                src="img/brand/brand-11.png"
+                alt="Logoipsum 5"
+                class="brands__image">
+            </div>
+            <div class="brands__item">
+              <img
+                src="img/brand/brand-12.png"
+                alt="Logoipsum 6"
+                class="brands__image">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of the Brands Area -->
+
+      <!-- Starting of the Testimonials Two Area -->
+      <section class="testimonials testimonials--two"
+        data-bg-img="img/shape/testimonial-bg.png"
+      >
+        <div class="testimonials__container container">
+          <div class="testimonials__subtitle-wrap subtitle-wrap">
+            <svg
+              width="24"
+              height="26"
+              viewBox="0 0 24 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="
+                  M 17.82 13.02
+                  C 17.6326 12.8337 17.3792 12.7292 17.115 12.7292
+                  C 16.8508 12.7292 16.5974 12.8337 16.41 13.02
+                  C 16.2237 13.2074 16.1192 13.4608 16.1192 13.725
+                  C 16.1192 13.9892 16.2237 14.2426 16.41 14.43
+                  L 20.2 18.22
+                  H 2
+                  V 1
+                  C 2 0.734784 1.89464 0.48043 1.70711 0.292893
+                  C 1.51957 0.105357 1.26522 0 1 0
+                  C 0.734784 0 0.48043 0.105357 0.292893 0.292893
+                  C 0.105357 0.48043 0 0.734784 0 1
+                  V 18.22
+                  C 0 18.7504 0.210714 19.2591 0.585786 19.6342
+                  C 0.960859 20.0093 1.46957 20.22 2 20.22
+                  H 20.15
+                  L 16.41 23.97
+                  C 16.2237 24.1574 16.1192 24.4108 16.1192 24.675
+                  C 16.1192 24.9392 16.2237 25.1926 16.41 25.38
+                  C 16.5963 25.5647 16.8477 25.6689 17.11 25.67
+                  C 17.2416 25.6708 17.3721 25.6455 17.4939 25.5958
+                  C 17.6157 25.546 17.7266 25.4727 17.82 25.38
+                  L 24 19.22
+                  L 17.82 13.02
+                  Z
+                "
+                fill="#00FFF0"
+              />
+            </svg>
+
+            <span class="testimonials__subtitle subtitle">Testimonials</span>
+          </div>
+          <h2 class="testimonials__title title-gradient">Reviews</h2>
+
+          <div class="testimonials__list">
+
+            <div class="testimonials__item testimonials__item--active">
+              <div class="testimonials__item-header">
+                <span class="testimonials__item-index">01.</span>
+                <div class="testimonials__item-title-wrap">
+                  <div class="testimonials__title-group">
+                    <span class="testimonials__item-title"
+                      >Natalian Elikson</span
+                    >
+                    <span class="testimonials__item-role">Art Collector</span>
+                  </div>
+                  <div class="testimonials__item-toggle-wrap">
+                    <i
+                      class="testimonials__item-toggle-icon fa-solid fa-arrow-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="testimonials__item-content"
+                style="
+                  visibility: hidden;
+                  transform: scaleY(0);
+                  opacity: 0;
+                  height: 0px;
+                  padding: 0px 2rem;
+                  margin-bottom: 0px;
+                "
+              >
+                <div class="testimonials__item-img-wrap">
+                  <img
+                    src="img/testimonials/testimonial-0.png"
+                    alt="Preview 2"
+                    class="testimonials__item-image">
+                </div>
+
+                <div class="testimonials__item-text">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="38"
+                    viewBox="0 0 42 38"
+                    fill="none"
+                  >
+                    <path
+                      d="M18.1429 2.99985C10.9561 7.66753 7.36269 13.2889 7.36269 19.8638C7.36269 21.9094 7.71382 22.9322 8.41607 22.9322L9.13901 22.7341C9.70738 22.5119 10.1674 22.4008 10.5192 22.4008C12.5785 22.4008 14.2976 23.16 15.6765 24.6784C17.0555 26.1969 17.7455 28.0709 17.7468 30.3004C17.7455 32.4435 17.0001 34.2625 15.5104 35.7575C14.0207 37.2513 12.2243 37.9981 10.1212 37.9981C7.18561 37.9981 4.76363 36.7741 2.85526 34.3261C0.951753 31.8818 1.37058e-06 28.8097 1.37058e-06 25.1099C-0.0012157 20.9249 0.808138 17.0961 2.42806 13.6234C4.05164 10.152 6.52717 7.01324 9.85465 4.2072C13.1846 1.40364 15.3096 0.00123451 16.2297 0C16.8431 0 17.347 0.299985 17.7413 0.899956C18.1356 1.49869 18.3328 2.02027 18.3328 2.4647L18.1374 2.998L18.1429 2.99985ZM41.8028 2.99985C34.616 7.66629 31.0232 13.2882 31.0244 19.8657C31.0244 21.9113 31.3756 22.9341 32.0778 22.9341L32.8007 22.7359C33.3691 22.5137 33.8292 22.4026 34.1809 22.4026C36.1964 22.4026 37.9045 23.1618 39.3054 24.6803C40.7087 26.1963 41.4097 28.0702 41.4085 30.3022C41.4073 32.4453 40.6618 34.2644 39.1721 35.7594C37.6824 37.2531 35.886 38 33.7829 38C30.8473 38 28.4254 36.776 26.517 34.328C24.6135 31.8836 23.6617 28.8116 23.6617 25.1117C23.6593 20.8823 24.4808 17.0208 26.1263 13.5271C27.7694 10.0322 30.2443 6.9046 33.5511 4.14424C36.8639 1.38265 38.9786 0.00185251 39.8951 0.00185251C40.5097 0.00185251 41.0148 0.301837 41.4103 0.901808C41.8034 1.50178 42 2.02398 42 2.4684L41.8028 2.99985Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <p class="testimonials__item-desc">
+                    The curation was simply outstanding. The exhibition beautifully captured the essence of each piece and created an unforgettable experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__item">
+              <div class="testimonials__item-header">
+                <span class="testimonials__item-index">02.</span>
+                <div class="testimonials__item-title-wrap">
+                  <div class="testimonials__title-group">
+                    <span class="testimonials__item-title">Merry Jhonson</span>
+                    <span class="testimonials__item-role">Gallery Owner</span>
+                  </div>
+                  <div class="testimonials__item-toggle-wrap">
+                    <i
+                      class="testimonials__item-toggle-icon fa-solid fa-arrow-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="testimonials__item-content"
+                style="
+                  visibility: hidden;
+                  transform: scaleY(0);
+                  opacity: 0;
+                  height: 0px;
+                  padding: 0px 2rem;
+                  margin-bottom: 0px;
+                "
+              >
+                <div class="testimonials__item-img-wrap">
+                  <img
+                    src="img/testimonials/testimonial-2.png"
+                    alt="Preview 2"
+                    class="testimonials__item-image">
+                </div>
+
+                <div class="testimonials__item-text">
+                  <svg
+                    width="42"
+                    height="38"
+                    viewBox="0 0 42 38"
+                    fill="none"
+                  >
+                    <path
+                      d="M18.1429 2.99985C10.9561 7.66753 7.36269 13.2889 7.36269 19.8638C7.36269 21.9094 7.71382 22.9322 8.41607 22.9322L9.13901 22.7341C9.70738 22.5119 10.1674 22.4008 10.5192 22.4008C12.5785 22.4008 14.2976 23.16 15.6765 24.6784C17.0555 26.1969 17.7455 28.0709 17.7468 30.3004C17.7455 32.4435 17.0001 34.2625 15.5104 35.7575C14.0207 37.2513 12.2243 37.9981 10.1212 37.9981C7.18561 37.9981 4.76363 36.7741 2.85526 34.3261C0.951753 31.8818 1.37058e-06 28.8097 1.37058e-06 25.1099C-0.0012157 20.9249 0.808138 17.0961 2.42806 13.6234C4.05164 10.152 6.52717 7.01324 9.85465 4.2072C13.1846 1.40364 15.3096 0.00123451 16.2297 0C16.8431 0 17.347 0.299985 17.7413 0.899956C18.1356 1.49869 18.3328 2.02027 18.3328 2.4647L18.1374 2.998L18.1429 2.99985ZM41.8028 2.99985C34.616 7.66629 31.0232 13.2882 31.0244 19.8657C31.0244 21.9113 31.3756 22.9341 32.0778 22.9341L32.8007 22.7359C33.3691 22.5137 33.8292 22.4026 34.1809 22.4026C36.1964 22.4026 37.9045 23.1618 39.3054 24.6803C40.7087 26.1963 41.4097 28.0702 41.4085 30.3022C41.4073 32.4453 40.6618 34.2644 39.1721 35.7594C37.6824 37.2531 35.886 38 33.7829 38C30.8473 38 28.4254 36.776 26.517 34.328C24.6135 31.8836 23.6617 28.8116 23.6617 25.1117C23.6593 20.8823 24.4808 17.0208 26.1263 13.5271C27.7694 10.0322 30.2443 6.9046 33.5511 4.14424C36.8639 1.38265 38.9786 0.00185251 39.8951 0.00185251C40.5097 0.00185251 41.0148 0.301837 41.4103 0.901808C41.8034 1.50178 42 2.02398 42 2.4684L41.8028 2.99985Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <p class="testimonials__item-desc">
+                    Their UI/UX work transformed our product. Smooth process,
+                    creative input, and attention to every small detail truly
+                    impressed me.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__item">
+              <div class="testimonials__item-header">
+                <span class="testimonials__item-index">03.</span>
+                <div class="testimonials__item-title-wrap">
+                  <div class="testimonials__title-group">
+                    <span class="testimonials__item-title"
+                      >Alikson Monroe</span
+                    >
+                    <span class="testimonials__item-role">Contemporary Artist</span>
+                  </div>
+                  <div class="testimonials__item-toggle-wrap">
+                    <i
+                      class="testimonials__item-toggle-icon fa-solid fa-arrow-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="testimonials__item-content"
+                style="
+                  visibility: hidden;
+                  transform: scaleY(0);
+                  opacity: 0;
+                  height: 0px;
+                  padding: 0px 2rem;
+                  margin-bottom: 0px;
+                "
+              >
+                <div class="testimonials__item-img-wrap">
+                  <img
+                    src="img/testimonials/testimonial-3.png"
+                    alt="Preview 2"
+                    class="testimonials__item-image">
+                </div>
+
+                <div class="testimonials__item-text">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="38"
+                    viewBox="0 0 42 38"
+                    fill="none"
+                  >
+                    <path
+                      d="M18.1429 2.99985C10.9561 7.66753 7.36269 13.2889 7.36269 19.8638C7.36269 21.9094 7.71382 22.9322 8.41607 22.9322L9.13901 22.7341C9.70738 22.5119 10.1674 22.4008 10.5192 22.4008C12.5785 22.4008 14.2976 23.16 15.6765 24.6784C17.0555 26.1969 17.7455 28.0709 17.7468 30.3004C17.7455 32.4435 17.0001 34.2625 15.5104 35.7575C14.0207 37.2513 12.2243 37.9981 10.1212 37.9981C7.18561 37.9981 4.76363 36.7741 2.85526 34.3261C0.951753 31.8818 1.37058e-06 28.8097 1.37058e-06 25.1099C-0.0012157 20.9249 0.808138 17.0961 2.42806 13.6234C4.05164 10.152 6.52717 7.01324 9.85465 4.2072C13.1846 1.40364 15.3096 0.00123451 16.2297 0C16.8431 0 17.347 0.299985 17.7413 0.899956C18.1356 1.49869 18.3328 2.02027 18.3328 2.4647L18.1374 2.998L18.1429 2.99985ZM41.8028 2.99985C34.616 7.66629 31.0232 13.2882 31.0244 19.8657C31.0244 21.9113 31.3756 22.9341 32.0778 22.9341L32.8007 22.7359C33.3691 22.5137 33.8292 22.4026 34.1809 22.4026C36.1964 22.4026 37.9045 23.1618 39.3054 24.6803C40.7087 26.1963 41.4097 28.0702 41.4085 30.3022C41.4073 32.4453 40.6618 34.2644 39.1721 35.7594C37.6824 37.2531 35.886 38 33.7829 38C30.8473 38 28.4254 36.776 26.517 34.328C24.6135 31.8836 23.6617 28.8116 23.6617 25.1117C23.6593 20.8823 24.4808 17.0208 26.1263 13.5271C27.7694 10.0322 30.2443 6.9046 33.5511 4.14424C36.8639 1.38265 38.9786 0.00185251 39.8951 0.00185251C40.5097 0.00185251 41.0148 0.301837 41.4103 0.901808C41.8034 1.50178 42 2.02398 42 2.4684L41.8028 2.99985Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <p class="testimonials__item-desc">
+                    From start to finish, the project was seamless. Their
+                    strategy, communication, and execution made a lasting impact
+                    on our brand.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials__item">
+              <div class="testimonials__item-header">
+                <span class="testimonials__item-index">04.</span>
+                <div class="testimonials__item-title-wrap">
+                  <div class="testimonials__title-group">
+                    <span class="testimonials__item-title"
+                      >Sophia Martinez</span
+                    >
+                    <span class="testimonials__item-role">Museum Curator</span>
+                  </div>
+                  <div class="testimonials__item-toggle-wrap">
+                    <i
+                      class="testimonials__item-toggle-icon fa-solid fa-arrow-down"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="testimonials__item-content"
+                style="
+                  visibility: hidden;
+                  transform: scaleY(0);
+                  opacity: 0;
+                  height: 0px;
+                  padding: 0px 2rem;
+                  margin-bottom: 0px;
+                "
+              >
+                <div class="testimonials__item-img-wrap">
+                  <img
+                    src="img/testimonials/testimonial-4.png"
+                    alt="Preview 2"
+                    class="testimonials__item-image">
+                </div>
+
+                <div class="testimonials__item-text">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="38"
+                    viewBox="0 0 42 38"
+                    fill="none"
+                  >
+                    <path
+                      d="M18.1429 2.99985C10.9561 7.66753 7.36269 13.2889 7.36269 19.8638C7.36269 21.9094 7.71382 22.9322 8.41607 22.9322L9.13901 22.7341C9.70738 22.5119 10.1674 22.4008 10.5192 22.4008C12.5785 22.4008 14.2976 23.16 15.6765 24.6784C17.0555 26.1969 17.7455 28.0709 17.7468 30.3004C17.7455 32.4435 17.0001 34.2625 15.5104 35.7575C14.0207 37.2513 12.2243 37.9981 10.1212 37.9981C7.18561 37.9981 4.76363 36.7741 2.85526 34.3261C0.951753 31.8818 1.37058e-06 28.8097 1.37058e-06 25.1099C-0.0012157 20.9249 0.808138 17.0961 2.42806 13.6234C4.05164 10.152 6.52717 7.01324 9.85465 4.2072C13.1846 1.40364 15.3096 0.00123451 16.2297 0C16.8431 0 17.347 0.299985 17.7413 0.899956C18.1356 1.49869 18.3328 2.02027 18.3328 2.4647L18.1374 2.998L18.1429 2.99985ZM41.8028 2.99985C34.616 7.66629 31.0232 13.2882 31.0244 19.8657C31.0244 21.9113 31.3756 22.9341 32.0778 22.9341L32.8007 22.7359C33.3691 22.5137 33.8292 22.4026 34.1809 22.4026C36.1964 22.4026 37.9045 23.1618 39.3054 24.6803C40.7087 26.1963 41.4097 28.0702 41.4085 30.3022C41.4073 32.4453 40.6618 34.2644 39.1721 35.7594C37.6824 37.2531 35.886 38 33.7829 38C30.8473 38 28.4254 36.776 26.517 34.328C24.6135 31.8836 23.6617 28.8116 23.6617 25.1117C23.6593 20.8823 24.4808 17.0208 26.1263 13.5271C27.7694 10.0322 30.2443 6.9046 33.5511 4.14424C36.8639 1.38265 38.9786 0.00185251 39.8951 0.00185251C40.5097 0.00185251 41.0148 0.301837 41.4103 0.901808C41.8034 1.50178 42 2.02398 42 2.4684L41.8028 2.99985Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <p class="testimonials__item-desc">
+                    A truly professional team that listens, delivers on time,
+                    and creates experiences that stand out in a competitive
+                    industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- End of the Testimonials Two Area -->
+
+      <!-- Starting of the Team One Area -->
+      <section class="team team--one">
+        <div class="team__content" data-bg-img="img/team/team-bg.png">
+          <div class="team__content-wrap container">
+            <h2 class="team__title title">
+              Our beauty studio enhances your glow, inspires confidence, and reflects the artistry of our expert team.
+            </h2>
+
+            <div class="team__text-group">
+              <p class="team__desc">
+                Behind every product is a passionate team of beauty experts, skincare specialists, and creative designers working together to bring your favorite cosmetics to life.
+              </p>
+
+              <a href="#" class="team__btn btn__bluet">
+                <span class="team__btn-bluet bluet"></span>
+                <span class="team__btn-text btn-text">Meet our team</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team__container container">
+          <div class="team__member">
+            <div class="team__photo-wrap">
+              <img
+                src="img/team/team-member-9.png"
+                alt="Sage Rivera"
+                class="team__photo">
+            </div>
+            <div class="team__overlay">
+              <div class="team__info">
+                <div class="team__details">
+                   <h3 class="team__name">Noah Carter</h3>
+                  <p class="team__role">Lead Developer</p>
+                </div>
+                <div class="team__socials">
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-x-twitter"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fa-solid fa-basketball"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="team__member">
+            <div class="team__photo-wrap">
+              <img
+                src="img/team/team-member-2.png"
+                alt="Team Member"
+                class="team__photo">
+            </div>
+            <div class="team__overlay">
+              <div class="team__info">
+                <div class="team__details">
+                  <h3 class="team__name">Liam Bennett</h3>
+                  <p class="team__role">Creative Director</p>
+                </div>
+                <div class="team__socials">
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-x-twitter"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fa-solid fa-basketball"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="team__member">
+            <div class="team__photo-wrap">
+              <img
+                src="img/team/team-member-10.png"
+                alt="Team Member"
+                class="team__photo">
+            </div>
+            <div class="team__overlay">
+              <div class="team__info">
+                <div class="team__details">
+                  <h3 class="team__name">Ethan Walker</h3>
+                  <p class="team__role">Marketing Manager</p>
+                </div>
+                <div class="team__socials">
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-x-twitter"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fa-solid fa-basketball"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="team__member">
+            <div class="team__photo-wrap">
+              <img
+                src="img/team/team-member-11.png"
+                alt="Team Member"
+                class="team__photo">
+            </div>
+            <div class="team__overlay">
+              <div class="team__info">
+                <div class="team__details">
+                  <h3 class="team__name">James Mitchell</h3>
+                  <p class="team__role">Product Strategist</p>
+                </div>
+                <div class="team__socials">
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-x-twitter"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#" class="team__social"
+                    ><i class="fa-solid fa-basketball"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of the Team One Area -->
+
+      <!-- Starting of the Pricing Area -->
+      <section class="pricing">
+            <div class="pricing__container container">
+                <h2 class="pricing__title title">Choose the Perfect Plan for Your Art Experience & Creative Showcase</h2>
+
+                <div class="pricing__toggle">
+                    <button class="pricing__toggle-btn pricing__toggle-btn--active" data-period="monthly">Monthly</button>
+                    <button class="pricing__toggle-btn" data-period="yearly">Yearly</button>
+                </div>
+
+                <div class="pricing__cards">
+                    <!-- Starter Package -->
+                    <div class="pricing__card">
+                        <h3 class="pricing__plan-title">Starter Curation Package</h3>
+                        <p class="pricing__price title" data-monthly="300" data-yearly="250">$300.00</p>
+                        <p class="pricing__subtitle">
+                       Perfect for emerging artists or small galleries who need a professional exhibition setup without extra complexity.
+                        </p>
+                        <a href="#" class="pricing__btn">Choose Your Plan</a>
+                        <ul class="pricing__features">
+                        <li class="pricing__feature">Curation for up to 10 artworks</li>
+                        <li class="pricing__feature">Basic Exhibition Layout Design</li>
+                        <li class="pricing__feature">Simple Lighting & Display Planning</li>
+                        <li class="pricing__feature"> Event Coordination (Opening Day Only)</li>
+                        <li class="pricing__feature">Digital Poster Design for Promotion</li>
+                        </ul>
+                    </div>
+
+                    <!-- Professional Package -->
+                    <div class="pricing__card pricing__card--featured">
+                        <h3 class="pricing__plan-title">Professional Exhibition Package</h3>
+                        <p class="pricing__price title" data-monthly="600" data-yearly="500">$600.00</p>
+                        <p class="pricing__subtitle">
+                       Ideal for established artists or institutions seeking a curated exhibition that engages visitors and tells a compelling story.
+                        </p>
+                        <a href="#" class="pricing__btn pricing__btn--featured">Choose Your Plan</a>
+                        <ul class="pricing__features">
+                        <li class="pricing__feature">Curation for up to 25 artworks</li>
+                        <li class="pricing__feature">Custom Exhibition Flow & Theme Design</li>
+                        <li class="pricing__feature">Advanced Lighting & Space Planning</li>
+                        <li class="pricing__feature">Event Support (Opening + Guided Tour)</li>
+                        <li class="pricing__feature">Photography & Social Media Content Pack</li>
+                        <li class="pricing__feature">Digital Catalogue (PDF)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Premium Package -->
+                    <div class="pricing__card">
+                        <h3 class="pricing__plan-title">Premium Curatorial Experience</h3>
+                        <p class="pricing__price title" data-monthly="900" data-yearly="750">$900.00</p>
+                        <p class="pricing__subtitle">
+                        For museums, large galleries, or major events that require a fully immersive, high-end exhibition experience.
+                        </p>
+                        <a href="#" class="pricing__btn">Choose Your Plan</a>
+                        <ul class="pricing__features">
+                        <li class="pricing__feature">Curation for 50+ artworks</li>
+                        <li class="pricing__feature">Bespoke Spatial Design & Installation</li>
+                        <li class="pricing__feature">Interactive & Multimedia Experience Setup</li>
+                        <li class="pricing__feature">Complete Event Management & Coordination</li>
+                        <li class="pricing__feature">Video Documentation & Post-Event Highlights</li>
+                        <li class="pricing__feature">Printed Catalogue + Digital Archive Setup</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- End of the Pricing Area -->
+
+      <!-- Starting of the Insights Area -->
+      <section class="insights">
+        <div class="container">
+          <div class="insights__title-wrap">
+            <div class="insights__subtitle-wrap subtitle-wrap">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="26"
+                viewBox="0 0 24 26"
+                fill="none"
+              >
+                <path
+                  d="M17.82 13.02C17.6326 12.8337 17.3792 12.7292 17.115 12.7292C16.8508 12.7292 16.5974 12.8337 16.41 13.02C16.2237 13.2074 16.1192 13.4608 16.1192 13.725C16.1192 13.9892 16.2237 14.2426 16.41 14.43L20.2 18.22H2V1C2 0.734784 1.89464 0.48043 1.70711 0.292893C1.51957 0.105357 1.26522 0 1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V18.22C0 18.7504 0.210714 19.2591 0.585786 19.6342C0.960859 20.0093 1.46957 20.22 2 20.22H20.15L16.41 23.97C16.2237 24.1574 16.1192 24.4108 16.1192 24.675C16.1192 24.9392 16.2237 25.1926 16.41 25.38C16.5963 25.5647 16.8477 25.6689 17.11 25.67C17.2416 25.6708 17.3721 25.6455 17.4939 25.5958C17.6157 25.546 17.7266 25.4727 17.82 25.38L24 19.22L17.82 13.02Z"
+                  fill="#00FFF0"
+                ></path>
+              </svg>
+              <span class="insights__tagline subtitle">Latest Insights</span>
+            </div>
+            <h2 class="insights__title title-gradient">ARTICLES</h2>
+          </div>
+
+          <div class="insights__articles">
+
+            <article class="insight-card">
+              <div class="insight-card__image">
+                <img src="img/insights/insights-7.png" alt="UI Mistakes">
+                <a class='insight-card__link-arrow' href='blog-details.html'>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                    fill="none"
+                  >
+                    <circle cx="38" cy="38" r="38" fill="white" />
+                    <path
+                      d="M28 28H47M47 28V47M47 28L28 47"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="insight-card__content">
+                <p class="insight-card__meta">Exhibitions // May 10, 2025</p>
+                <a class='insight-card__title-link' href='blog-details.html'>
+                  <h3 class="insight-card__title">
+                    5 key principles for curating meaningful art exhibitions that connect with audiences.
+                  </h3>
+                </a>
+
+                <div
+                  class="insight-card__separator"
+                ></div>
+
+                <div class="insight-card__author">
+                  <div class="insight-card__author-img-wrap">
+                    <img
+                      class="insight-card__avatar"
+                      src="img/global/avatar-15.png"
+                      alt="Jeff Monroe">
+                  </div>
+                  <div>
+                    <span class="insight-card__name">Riya Mehra</span>
+                    <span class="insight-card__readtime">5 min read</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="insight-card">
+              <div class="insight-card__image">
+                <img src="img/insights/insights-8.png" alt="UX Asset">
+                <a href="#" class="insight-card__link-arrow">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                    fill="none"
+                  >
+                    <circle cx="38" cy="38" r="38" fill="white" />
+                    <path
+                      d="M28 28H47M47 28V47M47 28L28 47"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="insight-card__content">
+                <p class="insight-card__meta">Creative // May 20, 2025</p>
+                <a class='insight-card__title-link' href='blog-details.html'>
+                  <h3 class="insight-card__title">
+                    Why every great exhibition tells a story — and how narrative design transforms visitor experience.
+                  </h3>
+                </a>
+
+                <div
+                  class="insight-card__separator"
+                ></div>
+
+                <div class="insight-card__author">
+                  <div class="insight-card__author-img-wrap">
+                    <img
+                      class="insight-card__avatar"
+                      src="img/global/avatar-13.png"
+                      alt="Dominic Hart">
+                  </div>
+                  <div>
+                    <span class="insight-card__name">Dominic Hart</span>
+                    <span class="insight-card__readtime">6 min read</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="insight-card">
+              <div class="insight-card__image">
+                <img src="img/insights/insights-9.png" alt="Mobile Design">
+                <a href="#" class="insight-card__link-arrow">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                    fill="none"
+                  >
+                    <circle cx="38" cy="38" r="38" fill="white" />
+                    <path
+                      d="M28 28H47M47 28V47M47 28L28 47"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="insight-card__content">
+                <p class="insight-card__meta">Visual Arts // May 20, 2025</p>
+                <a class='insight-card__title-link' href='blog-details.html'>
+                  <h3 class="insight-card__title">
+                    Exploring how photography enriches the gallery experience and preserves the art narrative.
+                  </h3>
+                </a>
+
+                <div
+                  class="insight-card__separator"
+                ></div>
+
+                <div class="insight-card__author">
+                  <div class="insight-card__author-img-wrap">
+                    <img
+                      class="insight-card__avatar"
+                      src="img/global/avatar-14.png"
+                      alt="Hasna Ali">
+                  </div>
+                  <div>
+                    <span class="insight-card__name">Hasna Ali</span>
+                    <span class="insight-card__readtime">7 min read</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+      <!-- End of the Insights Area -->
+    </main>
+
+    <!-- Starting of the Footer Two Area -->
+     <footer class="footer footer--one">
+        <div class="footer__container container">
+            <div class="footer__contact">
+                <div class="footer__info">
+                    <div class="footer__title-wrap">
+                        <div class="footer__subtitle-wrap">
+                            <div class="footer__subtitle-wrap subtitle-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                                <path d="M17.82 13.02C17.6326 12.8337 17.3792 12.7292 17.115 12.7292C16.8508 12.7292 16.5974 12.8337 16.41 13.02C16.2237 13.2074 16.1192 13.4608 16.1192 13.725C16.1192 13.9892 16.2237 14.2426 16.41 14.43L20.2 18.22H2V1C2 0.734784 1.89464 0.48043 1.70711 0.292893C1.51957 0.105357 1.26522 0 1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V18.22C0 18.7504 0.210714 19.2591 0.585786 19.6342C0.960859 20.0093 1.46957 20.22 2 20.22H20.15L16.41 23.97C16.2237 24.1574 16.1192 24.4108 16.1192 24.675C16.1192 24.9392 16.2237 25.1926 16.41 25.38C16.5963 25.5647 16.8477 25.6689 17.11 25.67C17.2416 25.6708 17.3721 25.6455 17.4939 25.5958C17.6157 25.546 17.7266 25.4727 17.82 25.38L24 19.22L17.82 13.02Z" fill="#00FFF0"/>
+                            </svg>
+                            <span class="footer__subtitle subtitle">Let’s Talk</span>
+                        </div>
+                        <h3 class="footer__title title">
+                            Got a creative vision in mind?<br>
+                            From paintings to digital art
+                            collections & gallery showcases,
+                            let’s bring it to life.
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="footer__text">
+                    <a href="mailto:maxfix@gmail.com" class="footer__email title">hello@artgallery.com</a>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social">Facebook</a>
+                        <a href="#" class="footer__social">Twitter</a>
+                        <a href="#" class="footer__social">Instagram</a>
+                        <a href="#" class="footer__social">LinkedIn</a>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Contact Form -->
+                    <form class="footer__form">
+                    <span class="footer__form-subtitle"><img src="img/global/art-logo.png" alt=""></span>
+                    <h4 class="footer__form-title title">Have questions, need advice, or want to collaborate?</h4>
+                    <input type="text" class="footer__input" placeholder="Your Name">
+                    <input type="email" class="footer__input" placeholder="Your Email">
+                    <textarea class="footer__textarea" placeholder="Write Your Message" rows="70"></textarea>
+                    <button type="submit" class="footer__submit  btn-arrow__black">
+                            <span class="footer__submit-text btn-arrow__text">Submit Message <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="footer__brand">
+                <img src="img/global/logo.png" alt="">
+            </div>
+
+            <div class="footer__bottom">
+                
+                <a href="#header" class="footer__scroll-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66" fill="none">
+                    <circle cx="33" cy="33" r="33" fill="#00FFF0"/>
+                    <path d="M33.0605 22.121L32 21.0605L33.0605 20L34.121 21.0605L33.0605 22.121ZM34.5605 44.621C34.5605 45.0188 34.4025 45.4004 34.1212 45.6817C33.8399 45.963 33.4583 46.121 33.0605 46.121C32.6627 46.121 32.2811 45.963 31.9998 45.6817C31.7185 45.4004 31.5605 45.0188 31.5605 44.621H34.5605ZM23 30.0605L32 21.0605L34.121 23.1815L25.121 32.1815L23 30.0605ZM34.121 21.0605L43.121 30.0605L41 32.1815L32 23.1815L34.121 21.0605ZM34.5605 22.121V44.621H31.5605V22.121H34.5605Z" fill="black"/>
+                    </svg>
+                </a>
+                <p class="footer__copyright">
+                © Copyright 2025, All Rights Reserved by ArtGallery
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End of the Footer Two Area -->
+
+    <!-- GSAP JS -->
+    <script src="js/gsap.min.js"></script>
+    <!-- ScrollTrigger JS -->
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Lenis JS -->
+    <script src="js/lenis.min.js"></script>
+    <!--Glightbox  -->
+    <script src="js/glightbox.min.js"></script>
+    <!-- Animation JS -->
+    <script src="js/animation-gsap.js"></script>
+    <!-- Custom Theme JS -->
+    <script src="js/script.js"></script>
+  </body>
+
+<!-- Mirrored from extraordinary-fairy-c25c85.netlify.app/index-2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Sep 2025 12:00:56 GMT -->
+</html>

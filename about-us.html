@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from extraordinary-fairy-c25c85.netlify.app/about-us by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Sep 2025 12:00:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtGallery - website design</title>
+    <link rel="shortcut icon" href="img/global/favicon.png" type="image/x-icon">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Swiper CSS -->
+    <link  rel="stylesheet"  href="css/swiper-bundle.min.css">
+    <!-- Glightbox CSS -->
+     <link rel="stylesheet" href="css/glightbox.min.css">
+    <!-- Custom Theme CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Starting of the Preloader -->
+    <div class="preloader">
+        <img src="img/global/preloader.gif" alt="Loading..." class="preloader__img">
+    </div>
+    <!-- End of the Preloader -->
+
+       <!-- Starting of the Header One Area -->
+    <header id="header" class="header header--one">
+        <div class="header__container container">
+            <div class="header__logo">
+                <a href="index.html" class="logo">
+                    <img src="img/global/logo.png" alt="Maxfix Logo" class="logo__img">
+                </a>
+            </div>
+
+            <ul class="menu main-menu">
+                <li class="menu-item menu-item-has-children">
+                    <a href="#">Home</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item "><a href='index.html'>Home 01</a></li>
+                        <li class="menu-item"><a href='index-2.html'>Home 02</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item current-menu-item"><a href='about-us.html'>About</a></li>
+                <li class="menu-item"><a href='services.html'>Services</a></li>
+                <li class="menu-item menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href='blog.html'>Blog</a></li>
+                        <li class="menu-item"><a href='blog-details.html'>Blog Details</a></li>
+                        <li class="menu-item"><a href='portfolio.html'>Portfolio</a></li>
+                        <li class="menu-item"><a href='portfolio-details.html'>Portfolio Details</a></li>
+                        <li class="menu-item"><a href='services-details.html'>Services Details</a></li>
+                        <li class="menu-item"><a href='faq.html'>Faq</a></li>
+                        <li class="menu-item"><a href='pricing-plan.html'>Pricing Plan</a></li>
+                        <li class="menu-item"><a href='team-member.html'>Team Member</a></li>
+                        <li class="menu-item"><a href='404.html'>404</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href='contact.html'>Contact</a></li>
+            </ul>
+
+            <div class="header__menu-btn">
+                <button class="menu-btn" id="menuToggle">
+                    <span class="menu-btn__text">MENU <img src="img/global/lines.png" alt="" class="menu-line"></span>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="12" viewBox="0 0 50 12" fill="none">
+                        <line y1="2" x2="50" y2="2" stroke="black" stroke-width="1"/>
+                        <line y1="10" x2="50" y2="10" stroke="black" stroke-width="1"/>
+                    </svg> -->
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- End of the Header Two Area -->
+
+    <!-- Starting of the Mobile Offcanvas -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu__header">
+        <div class="main-nav__logo">
+            <a href="index.html" class="logo">
+                <img src="img/global/logo.png" alt="Maxfix Logo" class="logo__img">
+            </a>
+        </div>
+        <div class="mobile-menu__close" id="closeMobile">✕</div>
+      </div>
+
+      <ul class="mobile-menu__list">
+        <li class="menu-item menu-item-has-children">
+            <a href="#">Home</a>
+            <ul class="sub-menu">
+                <li class="menu-item "><a href='index-2.html'>Home 01</a></li>
+                <li class="menu-item"><a href='index-2.html'>Home 02</a></li>
+            </ul>
+        </li>
+        <li class="menu-item  " ><a href='about-us.html' >About</a></li>
+        <li class="menu-item"><a href='services.html'>Services</a></li>
+        <li class="menu-item menu-item-has-children">
+          <a href="#">Pages</a>
+          <ul class="sub-menu">
+            <li class="menu-item"><a href='blog.html'>Blog</a></li>
+            <li class="menu-item"><a href='blog-details.html'>Blog Details</a></li>
+            <li class="menu-item"><a href='portfolio.html'>Portfolio</a></li>
+            <li class="menu-item"><a href='portfolio-details.html'>Portfolio Details</a></li>
+            <li class="menu-item"><a href='services-details.html'>Services Details</a></li>
+            <li class="menu-item"><a href='faq.html'>Faq</a></li>
+            <li class="menu-item"><a href='pricing-plan.html'>Pricing Plan</a></li>
+            <li class="menu-item"><a href='team-member.html'>Team Members</a>
+            <li class="menu-item"><a href='404.html'>404</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href='contact.html'>Contact</a></li>
+      </ul>
+
+      <!-- Contact Info: always visible -->
+       <div class="mobile-menu__contact">
+          <a href="#" class="mobile-menu__contact-link">
+            <span class="icon-wrap">
+                <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span>Dhaka, Bangladesh</span>
+          </a>
+          <a href="mailto:hello@cruvagency.com" class="mobile-menu__contact-link">
+            <span class="icon-wrap">
+                <i class="fa-solid fa-envelope"></i>
+            </span>
+            <span>hello@maxfix.com</span>
+          </a>
+          <a href="tel:5055550125" class="mobile-menu__contact-link">
+            <span class="icon-wrap">
+                <i class="fa-solid fa-phone"></i>
+            </span>
+            <span>(505) 555-0125</span>
+          </a>
+      </div>
+    </div>
+    <!-- End of the Mobile Offcanvas -->
+
+    <main class="main">
+
+        <!-- Starting of the Hero/About Area -->
+        <section class="hero hero--about">
+            <div class="hero__container container" data-bg-img="img/about/about-hero-bg.jpg">
+                <h1 class="hero__title title-lg">
+                    Who We Are
+                </h1>
+
+                <div class="hero__actions">
+                    <a class='hero__btn btn-arrow' href='portfolio.html'>
+                        <span class="btn-arrow__text hero-explore">Explore All Events</span>
+                    </a>
+
+                    <a href="#" class="hero__btn hero__btn--image">
+                        <img src="img/about/btn.png" alt="Button Image" class="hero__btn-img">
+                    </a>
+
+                    <p class="hero__desc">
+                       ArtGallery is more than just a space — it’s a celebration of creativity, imagination, and expression. Since our establishment in 2016, we’ve been curating and showcasing remarkable artworks from emerging and established artists around the world. From fine art to modern photography, our gallery is dedicated to connecting art lovers with works that inspire and move them.
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero__container-custom container">
+                <div class="hero__img-wrap">
+                    <img src="img/about/about-4.png" alt="" class="hero__img">
+                </div>
+            </div>
+        </section>
+        <!-- End of the Hero/About Area -->
+
+        <!-- Starting of the About/About Area -->
+        <section class="about about--about">
+            <div class="about__container container">
+                <div class="about__header">
+                    <div class="about__subtitle-wrap subtitle-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                            <path d="M17.82 13.02C17.6326 12.8337 17.3792 12.7292 17.115 12.7292C16.8508 12.7292 16.5974 12.8337 16.41 13.02C16.2237 13.2074 16.1192 13.4608 16.1192 13.725C16.1192 13.9892 16.2237 14.2426 16.41 14.43L20.2 18.22H2V1C2 0.734784 1.89464 0.48043 1.70711 0.292893C1.51957 0.105357 1.26522 0 1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V18.22C0 18.7504 0.210714 19.2591 0.585786 19.6342C0.960859 20.0093 1.46957 20.22 2 20.22H20.15L16.41 23.97C16.2237 24.1574 16.1192 24.4108 16.1192 24.675C16.1192 24.9392 16.2237 25.1926 16.41 25.38C16.5963 25.5647 16.8477 25.6689 17.11 25.67C17.2416 25.6708 17.3721 25.6455 17.4939 25.5958C17.6157 25.546 17.7266 25.4727 17.82 25.38L24 19.22L17.82 13.02Z" fill="#00FFF0"/>
+                        </svg>
+                        <span class="about__subtitle subtitle">What We Do</span>
+                    </div>
+
+                    <div class="about__title-wrap">
+                        <h2 class="about__title title">  Art Exhibitions: Hosting curated shows that highlight diverse artistic styles. Photography Showcases: Featuring timeless photography that captures life’s essence. Workshops & Talks: Educating and inspiring through interactive art programs. Online Exhibitions: Bringing world-class art to a digital audience.</h2>
+                    </div>
+                </div>
+
+                <div class="about__images">
+                    <div class="about__image-wrap">
+                        <img src="img/about/pic-1.png" alt="Team at work">
+                    </div>
+                    <div class="about__image-wrap">
+                        <img src="img/about/pic-2.png" alt="Discussion">
+                    </div>
+                    <div class="about__image-wrap">
+                        <img src="img/about/pic-3.png" alt="Teamwork">
+                    </div>
+                </div>
+
+                <!-- About Item -->
+                <div class="about__item-area">
+                    <div class="about__item-wrap">
+                        <div class="about__item">
+                            <h3 class="about__item-title">// Our Mission</h3>
+                            <p class="about__item-text">
+                                To provide artists with a global stage to showcase their talent. To make art more accessible and engaging for people everywhere. To blend the traditional beauty of galleries with the innovation of digital platforms.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about__item-wrap"> 
+                        <div class="about__item">
+                            <h3 class="about__item-title">// Our Vision</h3>
+                            <p class="about__item-text">
+                               We believe that art is a universal language — one that transcends boundaries, cultures, and time. Our vision is to create a platform where every masterpiece tells a story, sparks conversation, and leaves a lasting impression.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of the About/About Area -->
+
+        <!-- Starting of the Fact Area -->
+         <section class="fact">
+          <div class="fact__container container">
+              <h2 class="fact__title visually-hidden">Fact</h2>
+
+              <div class="fact__grid">
+                  <div class="fact__item">
+                      <div class="fact__year">9+</div>
+                      <div class="fact__title">Years of Excellence</div>
+                      <div class="fact__subtitle">in the art & photography field.</div>
+                      <div class="fact__avatars">
+                          <img src="img/services/avatar-2.png" alt="User" class="fact__avatar">
+                          <img src="img/services/avatar-3.png" alt="User" class="fact__avatar">
+                          <img src="img/services/avatar-4.png" alt="User" class="fact__avatar">
+                          <img src="img/services/avatar-5.png" alt="Icon" class="fact__avatar">
+                      </div>
+                  </div>
+
+                  <div class="fact__item">
+                      <div class="fact__number">299+</div>
+                      <div class="fact__title">Successful Exhibitions</div>
+                      <div class="fact__subtitle">hosted worldwide.</div>
+                      <div class="fact__icons">
+                          <img src="img/services/avatar-6.png" alt="User" class="fact__icon">
+                          <img src="img/services/avatar-7.png" alt="User" class="fact__icon">
+                          <img src="img/services/avatar-8.png" alt="User" class="fact__icon">
+                          <img src="img/services/avatar-9.png" alt="User" class="fact__icon">
+                      </div>
+                  </div>
+
+                  <div class="fact__item">
+                      <div class="fact__number">169+</div>
+                      <div class="fact__title">Happy Clients & Collectors</div>
+                      <div class="fact__subtitle">who trust our curation.</div>
+                      <div class="fact__avatars">
+                          <img src="img/services/avatar-10.png" alt="User" class="fact__avatar">
+                          <img src="img/services/avatar-11.png" alt="User" class="fact__avatar">
+                          <img src="img/services/avatar-12.png" alt="User" class="fact__avatar">
+                          <img src="img/services/avatar-13.png" alt="User" class="fact__avatar">
+                      </div>
+                  </div>
+
+                  <div class="fact__item">
+                      <div class="fact__number">13</div>
+                      <div class="fact__title">Ongoing Projects</div>
+                      <div class="fact__subtitle">that shape the future of art presentation.</div>
+                      <div class="fact__icons">
+                          <img src="img/services/avatar-14.png" alt="Icon" class="fact__icon">
+                          <img src="img/services/avatar-15.png" alt="User" class="fact__icon">
+                          <img src="img/services/avatar-16.png" alt="User" class="fact__icon">
+                          <img src="img/services/avatar-17.png" alt="User" class="fact__icon">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+        <!-- End of the Fact Area -->
+
+
+        <!-- Starting of meet the team -->
+         <div class="about__container container">
+                <div class="about__header">
+                    <div class="about__subtitle-wrap subtitle-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                            <path d="M17.82 13.02C17.6326 12.8337 17.3792 12.7292 17.115 12.7292C16.8508 12.7292 16.5974 12.8337 16.41 13.02C16.2237 13.2074 16.1192 13.4608 16.1192 13.725C16.1192 13.9892 16.2237 14.2426 16.41 14.43L20.2 18.22H2V1C2 0.734784 1.89464 0.48043 1.70711 0.292893C1.51957 0.105357 1.26522 0 1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V18.22C0 18.7504 0.210714 19.2591 0.585786 19.6342C0.960859 20.0093 1.46957 20.22 2 20.22H20.15L16.41 23.97C16.2237 24.1574 16.1192 24.4108 16.1192 24.675C16.1192 24.9392 16.2237 25.1926 16.41 25.38C16.5963 25.5647 16.8477 25.6689 17.11 25.67C17.2416 25.6708 17.3721 25.6455 17.4939 25.5958C17.6157 25.546 17.7266 25.4727 17.82 25.38L24 19.22L17.82 13.02Z" fill="#00FFF0"/>
+                        </svg>
+                        <span class="about__subtitle subtitle">Meet The Team</span>
+                    </div>
+
+                    <div class="about__title-wrap">
+                        <h2 class="about__title title"> Behind every exhibition is a team of passionate curators, designers, and storytellers who ensure that every detail resonates with beauty and meaning. Together, we work to create experiences that bridge the gap between artists and admirers.</h2>
+                    </div>
+                </div>
+                <!-- End of meet the team -->
+
+        <!-- Starting of the Team One Area -->
+        <section class="team team--one">
+
+            <div class="team__container container">
+                 <div class="team__member">
+                    <div class="team__photo-wrap">
+                    <img
+                        src="img/team/team-member-2.png"
+                        alt="Team Member"
+                        class="team__photo">
+                    </div>
+                    <div class="team__overlay">
+                    <div class="team__info">
+                        <div class="team__details">
+                        <h3 class="team__name">Noah Carter</h3>
+                        <p class="team__role">Lead Developer</p>
+                        </div>
+                        <div class="team__socials">
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-x-twitter"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fa-solid fa-basketball"></i
+                        ></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="team__member">
+                    <div class="team__photo-wrap">
+                    <img
+                        src="img/team/team-member-1.png"
+                        alt="Sage Rivera"
+                        class="team__photo">
+                    </div>
+                    <div class="team__overlay">
+                    <div class="team__info">
+                        <div class="team__details">
+                        <h3 class="team__name">Liam Bennett</h3>
+                        <p class="team__role">Creative Director</p>
+                        </div>
+                        <div class="team__socials">
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-x-twitter"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fa-solid fa-basketball"></i
+                        ></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="team__member">
+                    <div class="team__photo-wrap">
+                    <img
+                        src="img/team/team-member-3.png"
+                        alt="Team Member"
+                        class="team__photo">
+                    </div>
+                    <div class="team__overlay">
+                    <div class="team__info">
+                        <div class="team__details">
+                        <h3 class="team__name">Ethan Walker</h3>
+                        <p class="team__role">Marketing Manager</p>
+                        </div>
+                        <div class="team__socials">
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-x-twitter"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fa-solid fa-basketball"></i
+                        ></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="team__member">
+                    <div class="team__photo-wrap">
+                    <img
+                        src="img/team/team-member-4.png"
+                        alt="Team Member"
+                        class="team__photo">
+                    </div>
+                    <div class="team__overlay">
+                    <div class="team__info">
+                        <div class="team__details">
+                        <h3 class="team__name">James Mitchell</h3>
+                        <p class="team__role">Product Strategist</p>
+                        </div>
+                        <div class="team__socials">
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-x-twitter"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="#" class="team__social"
+                            ><i class="fa-solid fa-basketball"></i
+                        ></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of the Team One Area -->
+
+          <!-- Starting of the Brand Logos Area -->
+        <section class="brand-logos">
+            <div class="brand-logos__container container">
+                <h2 class="brand-logos__title ">Loved by Art Enthusiasts & Creators Worldwide</h2>
+                <div class="brand-logos__grid">
+                    <div class="brand-logos__item">
+                        <img src="img/brand/brand-1.png" alt="Logo 2" class="brand-logos__image">
+                    </div>
+                    <div class="brand-logos__item">
+                        <img src="img/brand/brand-3.png" alt="Logo 4" class="brand-logos__image">
+                    </div>
+                    <div class="brand-logos__item">
+                        <img src="img/brand/brand-4.png" alt="Logo 5" class="brand-logos__image">
+                    </div>
+                    <div class="brand-logos__item">
+                        <img src="img/brand/brand-5.png" alt="Logo 6" class="brand-logos__image">
+                    </div>
+                    <div class="brand-logos__item">
+                        <img src="img/brand/brand-6.png" alt="Logo 6" class="brand-logos__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of the Brand Logos Area -->
+
+         <!-- Starting of the Why Choose Area -->
+         <section class="why-choose why-choose--one">
+            <div class="why-choose__container container">
+
+                <div class="why-choose__header title-wrap__flex">
+                    <div class="why-chosse__subtitle-wrap subtitle-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                            <path d="M17.82 13.02C17.6326 12.8337 17.3792 12.7292 17.115 12.7292C16.8508 12.7292 16.5974 12.8337 16.41 13.02C16.2237 13.2074 16.1192 13.4608 16.1192 13.725C16.1192 13.9892 16.2237 14.2426 16.41 14.43L20.2 18.22H2V1C2 0.734784 1.89464 0.48043 1.70711 0.292893C1.51957 0.105357 1.26522 0 1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V18.22C0 18.7504 0.210714 19.2591 0.585786 19.6342C0.960859 20.0093 1.46957 20.22 2 20.22H20.15L16.41 23.97C16.2237 24.1574 16.1192 24.4108 16.1192 24.675C16.1192 24.9392 16.2237 25.1926 16.41 25.38C16.5963 25.5647 16.8477 25.6689 17.11 25.67C17.2416 25.6708 17.3721 25.6455 17.4939 25.5958C17.6157 25.546 17.7266 25.4727 17.82 25.38L24 19.22L17.82 13.02Z" fill="#00FFF0"/>
+                        </svg>
+                        <span class="why-choose__subtitle subtitle">Why Work With Us</span>
+                    </div>
+                    <h2 class="why-choose__title title-lg">Why Choose Us?</h2>
+                </div>
+
+                <div class="why-choose__content">
+                    <div class="why-choose__list">
+                        <div class="why-choose__item">
+                            <h3 class="why-choose__item-title">
+                                Curated Excellence
+                            </h3>
+                            <p class="why-choose__item-text">
+                               Every artwork is carefully selected by expert curators, ensuring quality, originality, and impact.
+                            </p>
+                        </div>
+                        <div class="why-choose__item">
+                            <h3 class="why-choose__item-title">
+                                9+ Years of Experience
+                            </h3>
+                            <p class="why-choose__item-text">
+                                Since 2016, we’ve been trusted by artists, photographers, and art enthusiasts worldwide.
+                            </p>
+                        </div>
+                        <div class="why-choose__item">
+                            <h3 class="why-choose__item-title">
+                                Artist-Centric Approach
+                            </h3>
+                            <p class="why-choose__item-text">
+                                We provide a platform that empowers creators — from exhibitions and showcases to branding and digital presence.
+                            </p>
+                        </div>
+                        <div class="why-choose__item">
+                            <h3 class="why-choose__item-title">
+                                Innovative Digital Experiences
+                            </h3>
+                            <p class="why-choose__item-text">
+                               From virtual exhibitions to interactive showcases, we bring art closer to people everywhere.
+                            </p>
+                        </div>
+                         <div class="why-choose__item">
+                            <h3 class="why-choose__item-title">
+                                Trusted by Collectors & Brands
+                            </h3>
+                            <p class="why-choose__item-text">
+                               With 169+ satisfied clients and 299+ successful projects, we’ve built lasting partnerships based on trust and creativity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="why-choose__image">
+                        <img src="img/why-choose-us/why-choose-1.png" alt="Team working together" >
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- End of the Why Choose Area -->
+         
+         <!-- Starting of the Testimonials One Area -->
+        <section class="testimonials testimonials--one">
+            <div class="testimonials__container container">
+                <div class="testimonials__title-wrap title-wrap__flex">
+                    <div class="testimonials__label-wrap subtitle-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                            <path d="M17.82 13.02C17.6326 12.8337 17.3792 12.7292 17.115 12.7292C16.8508 12.7292 16.5974 12.8337 16.41 13.02C16.2237 13.2074 16.1192 13.4608 16.1192 13.725C16.1192 13.9892 16.2237 14.2426 16.41 14.43L20.2 18.22H2V1C2 0.734784 1.89464 0.48043 1.70711 0.292893C1.51957 0.105357 1.26522 0 1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V18.22C0 18.7504 0.210714 19.2591 0.585786 19.6342C0.960859 20.0093 1.46957 20.22 2 20.22H20.15L16.41 23.97C16.2237 24.1574 16.1192 24.4108 16.1192 24.675C16.1192 24.9392 16.2237 25.1926 16.41 25.38C16.5963 25.5647 16.8477 25.6689 17.11 25.67C17.2416 25.6708 17.3721 25.6455 17.4939 25.5958C17.6157 25.546 17.7266 25.4727 17.82 25.38L24 19.22L17.82 13.02Z" fill="#00FFF0"/>
+                        </svg>
+                        <span class="testimonials__label subtitle">Testimonials</span> 
+                    </div>
+                    <h2 class="testimonials__title title-lg">Clients Reviews</h2>
+                    <!-- <a href="#" class="testimonials__button btn-arrow">
+                        <span class="testimonials__button-text btn-arrow__text">View All Services</span>
+                    </a> -->
+                     <a href="index.html" class="testimonials__button error__btn ">
+                    <span class=" testimonials__button-text error__btn btn-arrow__text">Explore All Events <i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                </div>
+
+                <div class="testimonials__list">
+                    <!-- Card 1 -->
+                    <div class="testimonial-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.8333 23.3333C38.5259 23.3333 36.2703 22.6491 34.3517 21.3672C32.4331 20.0852 30.9378 18.2631 30.0547 16.1313C29.1717 13.9995 28.9407 11.6537 29.3908 9.39062C29.841 7.12751 30.9521 5.0487 32.5838 3.41709C34.2154 1.78548 36.2942 0.674338 38.5573 0.224177C40.8204 -0.225984 43.1662 0.00505495 45.298 0.888077C47.4298 1.7711 49.2519 3.26645 50.5338 5.18502C51.8158 7.10359 52.5 9.35922 52.5 11.6667C52.5 15.9639 48.6111 29.575 40.8333 52.5H35L40.8333 23.3333ZM11.6667 23.3333C9.35922 23.3333 7.10359 22.6491 5.18502 21.3672C3.26645 20.0852 1.7711 18.2631 0.888077 16.1313C0.00505495 13.9995 -0.225984 11.6537 0.224177 9.39062C0.674338 7.12751 1.78548 5.0487 3.41709 3.41709C5.0487 1.78548 7.12751 0.674338 9.39062 0.224177C11.6537 -0.225984 13.9995 0.00505495 16.1313 0.888077C18.2631 1.7711 20.0852 3.26645 21.3672 5.18502C22.6491 7.10359 23.3333 9.35922 23.3333 11.6667C23.3333 15.9639 19.4445 29.575 11.6667 52.5H5.83334L11.6667 23.3333Z" fill="#00FFF0"/>
+                        </svg>
+                        <p class="testimonial-card__text">
+                            “A breathtaking blend of tradition and technology. The virtual tour felt just like walking through a real gallery."
+                        </p>
+                        <div class="testimonial-card__footer testimonial-card__footer--stacked">
+                            <div class="testimonial-card__img-wrap">
+                                <img src="img/testimonials/testimonial-1.png" alt="Sophia Martinez" class="testimonial-card__image">
+                            </div>
+                            <div class="testimonial-card__name">Sophia M</div>
+                            <div class="testimonial-card__position">Art Collector</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 - Taller with image on top -->
+                    <div class="testimonial-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M40.8333 23.3333C38.5259 23.3333 36.2703 22.6491 34.3517 21.3672C32.4331 20.0852 30.9378 18.2631 30.0547 16.1313C29.1717 13.9995 28.9407 11.6537 29.3908 9.39062C29.841 7.12751 30.9521 5.0487 32.5838 3.41709C34.2154 1.78548 36.2942 0.674338 38.5573 0.224177C40.8204 -0.225984 43.1662 0.00505495 45.298 0.888077C47.4298 1.7711 49.2519 3.26645 50.5338 5.18502C51.8158 7.10359 52.5 9.35922 52.5 11.6667C52.5 15.9639 48.6111 29.575 40.8333 52.5H35L40.8333 23.3333ZM11.6667 23.3333C9.35922 23.3333 7.10359 22.6491 5.18502 21.3672C3.26645 20.0852 1.7711 18.2631 0.888077 16.1313C0.00505495 13.9995 -0.225984 11.6537 0.224177 9.39062C0.674338 7.12751 1.78548 5.0487 3.41709 3.41709C5.0487 1.78548 7.12751 0.674338 9.39062 0.224177C11.6537 -0.225984 13.9995 0.00505495 16.1313 0.888077C18.2631 1.7711 20.0852 3.26645 21.3672 5.18502C22.6491 7.10359 23.3333 9.35922 23.3333 11.6667C23.3333 15.9639 19.4445 29.575 11.6667 52.5H5.83334L11.6667 23.3333Z" fill="#00FFF0"/>
+                        </svg>
+                        <p class="testimonial-card__text">
+                          “The neon-inspired theme is stunning. Every exhibition feels alive and immersive. The neon-inspired theme is stunning. Every exhibition feels alive and immersive."
+                        </p>
+                        <div class="testimonial-card__footer testimonial-card__footer--stacked">
+                            <div class="testimonial-card__img-wrap">
+                                <img src="img/testimonials/testimonial-3.png" alt="Sophia Martinez" class="testimonial-card__image">
+                            </div>
+                            <div class="testimonial-card__name">Daniel R</div>
+                            <div class="testimonial-card__position">Digital Artist</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="testimonial-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M40.8333 23.3333C38.5259 23.3333 36.2703 22.6491 34.3517 21.3672C32.4331 20.0852 30.9378 18.2631 30.0547 16.1313C29.1717 13.9995 28.9407 11.6537 29.3908 9.39062C29.841 7.12751 30.9521 5.0487 32.5838 3.41709C34.2154 1.78548 36.2942 0.674338 38.5573 0.224177C40.8204 -0.225984 43.1662 0.00505495 45.298 0.888077C47.4298 1.7711 49.2519 3.26645 50.5338 5.18502C51.8158 7.10359 52.5 9.35922 52.5 11.6667C52.5 15.9639 48.6111 29.575 40.8333 52.5H35L40.8333 23.3333ZM11.6667 23.3333C9.35922 23.3333 7.10359 22.6491 5.18502 21.3672C3.26645 20.0852 1.7711 18.2631 0.888077 16.1313C0.00505495 13.9995 -0.225984 11.6537 0.224177 9.39062C0.674338 7.12751 1.78548 5.0487 3.41709 3.41709C5.0487 1.78548 7.12751 0.674338 9.39062 0.224177C11.6537 -0.225984 13.9995 0.00505495 16.1313 0.888077C18.2631 1.7711 20.0852 3.26645 21.3672 5.18502C22.6491 7.10359 23.3333 9.35922 23.3333 11.6667C23.3333 15.9639 19.4445 29.575 11.6667 52.5H5.83334L11.6667 23.3333Z" fill="#00FFF0"/>
+                        </svg>
+                        <p class="testimonial-card__text">
+                            "Loved the Featured Artists section. Great way to discover new talents globally. Loved the Featured Artists section. Great way to discover new talents globally."
+                        </p>
+                        <div class="testimonial-card__footer testimonial-card__footer--stacked">
+                            <div class="testimonial-card__img-wrap">
+                                <img src="img/testimonials/testimonial-4.png" alt="Sophia Martinez" class="testimonial-card__image">
+                            </div>
+                            <div class="testimonial-card__name">Amira K</div>
+                            <div class="testimonial-card__position">Designer</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 - Shifted down -->
+                    <div class="testimonial-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M40.8333 23.3333C38.5259 23.3333 36.2703 22.6491 34.3517 21.3672C32.4331 20.0852 30.9378 18.2631 30.0547 16.1313C29.1717 13.9995 28.9407 11.6537 29.3908 9.39062C29.841 7.12751 30.9521 5.0487 32.5838 3.41709C34.2154 1.78548 36.2942 0.674338 38.5573 0.224177C40.8204 -0.225984 43.1662 0.00505495 45.298 0.888077C47.4298 1.7711 49.2519 3.26645 50.5338 5.18502C51.8158 7.10359 52.5 9.35922 52.5 11.6667C52.5 15.9639 48.6111 29.575 40.8333 52.5H35L40.8333 23.3333ZM11.6667 23.3333C9.35922 23.3333 7.10359 22.6491 5.18502 21.3672C3.26645 20.0852 1.7711 18.2631 0.888077 16.1313C0.00505495 13.9995 -0.225984 11.6537 0.224177 9.39062C0.674338 7.12751 1.78548 5.0487 3.41709 3.41709C5.0487 1.78548 7.12751 0.674338 9.39062 0.224177C11.6537 -0.225984 13.9995 0.00505495 16.1313 0.888077C18.2631 1.7711 20.0852 3.26645 21.3672 5.18502C22.6491 7.10359 23.3333 9.35922 23.3333 11.6667C23.3333 15.9639 19.4445 29.575 11.6667 52.5H5.83334L11.6667 23.3333Z" fill="#00FFF0"/>
+                        </svg>
+                        <p class="testimonial-card__text">
+                            “A breathtaking blend of tradition and technology. The virtual tour felt just like walking through a real gallery."
+                        </p>
+                        <div class="testimonial-card__footer">
+                            <div class="testimonial-card__img-wrap">
+                                <img src="img/testimonials/testimonial-5.png" alt="Sophia Martinez" class="testimonial-card__image">
+                            </div>
+                            <div class="testimonial-card__name">Lucas P</div>
+                            <div class="testimonial-card__position">Photographer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of the Testimonials One Area -->
+
+        <!-- Starting of the Faq Area -->
+           <section class="faq">
+            <div class="faq__container container">
+
+                <div class="faq__sidebar">
+                    <h2 class="faq__title title-lg">FAQ</h2>
+                    <div class="faq__sidebar-text-wrap">
+                        <p class="faq__subtitle">Having Another Question?</p>
+                        <!-- <a href="#" class="faq__button process__btn btn-arrow btn-arrow__black">
+                            <span class="faq__button-text btn-arrow__text">Get In Touch</span>
+                        </a> -->
+                         <a href="services.html" class="faq__button faq-error__btn ">
+                            <span class="faq__button-text faq-btn-arrow__text about-btn">Explore More <i class="fa-solid fa-arrow-right about-arrow"></i></span>
+                        </a>
+                    </div>
+                             </div>
+
+                <div class="faq__content">
+                    <div class="faq__item faq__item--active">
+                        <div class="faq__question">
+                            <!-- <span class="faq__number">001.</span> -->
+                            <div class="faq__question-inner">
+                                <h3 class="faq__question-text">Q1 : What is the concept behind this Art Gallery?</h3>
+                                <button class="faq__toggle">
+                                    <i class="fa-solid fa-arrow-down faq__toggle-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">
+                                Our gallery blends tradition with technology, showcasing everything from classic paintings to digital and AI-generated art. It’s designed to make art more immersive and accessible to all.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <!-- <span class="faq__number">002.</span> -->
+                            <div class="faq__question-inner">
+                                <h3 class="faq__question-text">Q2 : Do I need to create an account to explore the gallery?</h3>
+                                <button class="faq__toggle">
+                                    <i class="fa-solid fa-arrow-down faq__toggle-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">
+                                We begin with discovery sessions to understand your goals, challenges, and audience—then craft personalized strategies that align with your brand voice, growth vision, and market position for optimal impact.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <!-- <span class="faq__number">003.</span> -->
+                            <div class="faq__question-inner">
+                                <h3 class="faq__question-text">Q3: Are the artworks available for purchase?</h3>
+                                <button class="faq__toggle">
+                                    <i class="fa-solid fa-arrow-down faq__toggle-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">
+                                Timelines vary by channel—SEO typically takes 3–6 months, while PPC and social campaigns can show faster returns. We always set benchmarks to measure results early and refine over time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <!-- <span class="faq__number">004.</span> -->
+                            <div class="faq__question-inner">
+                                <h3 class="faq__question-text">Q4: Can I attend exhibitions virtually?</h3>
+                                <button class="faq__toggle">
+                                    <i class="fa-solid fa-arrow-down faq__toggle-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">
+                                Absolutely. We collaborate with clients globally through video calls, cloud-based project tools, and flexible workflows—ensuring seamless communication and consistent project delivery regardless of location.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <!-- <span class="faq__number">005.</span> -->
+                            <div class="faq__question-inner">
+                                <h3 class="faq__question-text">Q5: How often are new exhibitions added?</h3>
+                                <button class="faq__toggle">
+                                    <i class="fa-solid fa-arrow-down faq__toggle-icon"></i>
+                                </button>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">
+                                Our agency blends creativity with strategy, combining a user-centered approach and data-driven insights to craft bold digital experiences that not only look good but also perform exceptionally.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- End of the Faq Area -->
+
+    </main>
+
+    <!-- Starting of the Footer One Area -->
+    <footer class="footer footer--one">
+        <div class="footer__container container">
+            <div class="footer__contact">
+                <div class="footer__info">
+                    <div class="footer__title-wrap">
+                        <div class="footer__subtitle-wrap">
+                            <div class="footer__subtitle-wrap subtitle-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                                <path d="M17.82 13.02C17.6326 12.8337 17.3792 12.7292 17.115 12.7292C16.8508 12.7292 16.5974 12.8337 16.41 13.02C16.2237 13.2074 16.1192 13.4608 16.1192 13.725C16.1192 13.9892 16.2237 14.2426 16.41 14.43L20.2 18.22H2V1C2 0.734784 1.89464 0.48043 1.70711 0.292893C1.51957 0.105357 1.26522 0 1 0C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V18.22C0 18.7504 0.210714 19.2591 0.585786 19.6342C0.960859 20.0093 1.46957 20.22 2 20.22H20.15L16.41 23.97C16.2237 24.1574 16.1192 24.4108 16.1192 24.675C16.1192 24.9392 16.2237 25.1926 16.41 25.38C16.5963 25.5647 16.8477 25.6689 17.11 25.67C17.2416 25.6708 17.3721 25.6455 17.4939 25.5958C17.6157 25.546 17.7266 25.4727 17.82 25.38L24 19.22L17.82 13.02Z" fill="#00FFF0"/>
+                            </svg>
+                            <span class="footer__subtitle subtitle">Let’s Talk</span>
+                        </div>
+                        <h3 class="footer__title title">
+                            Got a creative vision in mind?<br>
+                            From paintings to digital art
+                            collections & gallery showcases,
+                            let’s bring it to life.
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="footer__text">
+                    <a href="mailto:maxfix@gmail.com" class="footer__email title">hello@artgallery.com</a>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social">Facebook</a>
+                        <a href="#" class="footer__social">Twitter</a>
+                        <a href="#" class="footer__social">Instagram</a>
+                        <a href="#" class="footer__social">LinkedIn</a>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Contact Form -->
+                    <form class="footer__form">
+                    <span class="footer__form-subtitle"><img src="img/global/art-logo.png" alt=""></span>
+                    <h4 class="footer__form-title title">Have questions, need advice, or want to collaborate?</h4>
+                    <input type="text" class="footer__input" placeholder="Your Name">
+                    <input type="email" class="footer__input" placeholder="Your Email">
+                    <textarea class="footer__textarea" placeholder="Write Your Message" rows="70"></textarea>
+                    <button type="submit" class="footer__submit  btn-arrow__black">
+                            <span class="footer__submit-text btn-arrow__text">Submit Message <i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="footer__brand">
+                <img src="img/global/logo.png" alt="">
+            </div>
+
+            <div class="footer__bottom">
+                
+                <a href="#header" class="footer__scroll-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66" fill="none">
+                    <circle cx="33" cy="33" r="33" fill="#00FFF0"/>
+                    <path d="M33.0605 22.121L32 21.0605L33.0605 20L34.121 21.0605L33.0605 22.121ZM34.5605 44.621C34.5605 45.0188 34.4025 45.4004 34.1212 45.6817C33.8399 45.963 33.4583 46.121 33.0605 46.121C32.6627 46.121 32.2811 45.963 31.9998 45.6817C31.7185 45.4004 31.5605 45.0188 31.5605 44.621H34.5605ZM23 30.0605L32 21.0605L34.121 23.1815L25.121 32.1815L23 30.0605ZM34.121 21.0605L43.121 30.0605L41 32.1815L32 23.1815L34.121 21.0605ZM34.5605 22.121V44.621H31.5605V22.121H34.5605Z" fill="black"/>
+                    </svg>
+                </a>
+                <p class="footer__copyright">
+                © Copyright 2025, All Rights Reserved by ArtGallery
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End of the Footer One Area -->
+
+    <!-- GSAP JS -->
+    <script src="js/gsap.min.js"></script>
+    <!-- ScrollTrigger JS -->
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Lenis JS -->
+    <script src="js/lenis.min.js"></script>
+    <!--Glightbox  -->
+    <script src="js/glightbox.min.js"></script>
+    <!-- Animation JS -->
+    <script src="js/animation-gsap.js"></script>
+    <!-- Custom Theme JS -->
+    <script src="js/script.js"></script>
+</body>
+
+<!-- Mirrored from extraordinary-fairy-c25c85.netlify.app/about-us by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Sep 2025 12:01:02 GMT -->
+</html>

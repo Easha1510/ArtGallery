@@ -345,7 +345,7 @@ html.lenis, html.lenis body {
 }
 
 /* Preloader */
-.preloader{
+.rl-preloader{
   position: fixed;
   top: 0;
   height: 100vh;
@@ -354,7 +354,7 @@ html.lenis, html.lenis body {
   z-index: 9999;
 }
 
-.preloader__img{
+.rl-preloader__img{
   width: 20%;
   height: 40%;
   position: absolute;

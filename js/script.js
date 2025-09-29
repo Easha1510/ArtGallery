@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
-Template Name: Maxfix – Digital Agency Portfolio HTML Template
+Template Name: ArtGallery – Digital Agency Portfolio HTML Template
 Template URL: https://extraordinary-fairy-c25c85.netlify.app
-Description: Maxfix is a next-generation HTML template converted from a premium Figma design, crafted for digital agencies, design studios, digital marketing agencies, personal portfolios, and creative professionals. It includes 14+ well-structured pages based on a 1770px grid system, featuring 2+ beautifully designed home pages. The codebase is clean, customizable, and organized for seamless editing and scalability across various business and personal website needs.
+Description: ArtGallery is a next-generation HTML template converted from a premium Figma design, crafted for digital agencies, design studios, digital marketing agencies, personal portfolios, and creative professionals. It includes 14+ well-structured pages based on a 1770px grid system, featuring 2+ beautifully designed home pages. The codebase is clean, customizable, and organized for seamless editing and scalability across various business and personal website needs.
 Author: UiBazar
 Author URL: https://themeforest.net/user/kitdokan
 Version: 1.0
@@ -66,14 +66,14 @@ document.addEventListener('DOMContentLoaded', function () {
 * 3. Services One Area
 ============================= */
 document.addEventListener("DOMContentLoaded", function () {
-  const toggleIcons = document.querySelectorAll(".services__item-toggle-icon");
+  const toggleIcons = document.querySelectorAll(".rl-services__item-toggle-icon");
 
   toggleIcons.forEach((icon) => {
-    const item = icon.closest(".services__item");
-    const content = item.querySelector(".services__item-content");
+    const item = icon.closest(".rl-services__item");
+    const content = item.querySelector(".rl-services__item-content");
 
     // Initialize state if already active
-    if (item.classList.contains("services__item--active")) {
+    if (item.classList.contains("rl-services__item--active")) {
       icon.classList.remove("fa-plus");
       icon.classList.add("fa-minus", "rotate");
       content.style.visibility = "visible";
@@ -85,13 +85,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     icon.addEventListener("click", function () {
-      const isActive = item.classList.contains("services__item--active");
+      const isActive = item.classList.contains("rl-services__item--active");
 
       // Close all other items
-      document.querySelectorAll(".services__item").forEach((otherItem) => {
-        if (otherItem !== item && otherItem.classList.contains("services__item--active")) {
-          const otherIcon = otherItem.querySelector(".services__item-toggle-icon");
-          const otherContent = otherItem.querySelector(".services__item-content");
+      document.querySelectorAll(".rl-services__item").forEach((otherItem) => {
+        if (otherItem !== item && otherItem.classList.contains("rl-services__item--active")) {
+          const otherIcon = otherItem.querySelector(".rl-services__item-toggle-icon");
+          const otherContent = otherItem.querySelector(".rl-services__item-content");
 
           otherIcon.classList.add("fa-plus");
           otherIcon.classList.remove("fa-minus", "rotate");
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
           otherContent.style.marginBottom = "0";
 
           setTimeout(() => {
-            otherItem.classList.remove("services__item--active");
+            otherItem.classList.remove("rl-services__item--active");
             otherContent.style.visibility = "hidden";
           }, 500);
         }
@@ -121,12 +121,12 @@ document.addEventListener("DOMContentLoaded", function () {
         content.style.marginBottom = "0";
 
         setTimeout(() => {
-          item.classList.remove("services__item--active");
+          item.classList.remove("rl-services__item--active");
           content.style.visibility = "hidden";
         }, 500);
       } else {
         // Open current
-        item.classList.add("services__item--active");
+        item.classList.add("rl-services__item--active");
 
         icon.classList.remove("fa-plus");
         icon.classList.add("fa-minus", "rotate");
@@ -149,8 +149,8 @@ document.addEventListener("DOMContentLoaded", function () {
 * 4. Testimonials One
 ============================= */
 document.addEventListener("DOMContentLoaded", function () {
-  const cards = document.querySelectorAll('.testimonial-card');
-  const cardList = document.querySelector('.testimonials__list');
+  const cards = document.querySelectorAll('.rl-testimonial-card');
+  const cardList = document.querySelector('.rl-testimonials__list');
 
   if(!cardList || cards) return;
 
@@ -197,14 +197,14 @@ document.addEventListener("DOMContentLoaded", function () {
 * 5. Testimonials Two
 ============================= */
 document.addEventListener("DOMContentLoaded", function () {
-  const toggleIcons = document.querySelectorAll(".testimonials__item-toggle-icon");
+  const toggleIcons = document.querySelectorAll(".rl-testimonials__item-toggle-icon");
 
   toggleIcons.forEach((icon) => {
-    const item = icon.closest(".testimonials__item");
-    const content = item.querySelector(".testimonials__item-content");
+    const item = icon.closest(".rl-testimonials__item");
+    const content = item.querySelector(".rl-testimonials__item-content");
 
     // Initialize active state
-    if (item.classList.contains("testimonials__item--active")) {
+    if (item.classList.contains("rl-testimonials__item--active")) {
       icon.classList.add("rotate");
 
       content.style.visibility = "visible";
@@ -216,13 +216,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     icon.addEventListener("click", function () {
-      const isActive = item.classList.contains("testimonials__item--active");
+      const isActive = item.classList.contains("rl-testimonials__item--active");
 
       // Close all other active items
-      document.querySelectorAll(".testimonials__item").forEach((otherItem) => {
-        if (otherItem !== item && otherItem.classList.contains("testimonials__item--active")) {
-          const otherIcon = otherItem.querySelector(".testimonials__item-toggle-icon");
-          const otherContent = otherItem.querySelector(".testimonials__item-content");
+      document.querySelectorAll(".rl-testimonials__item").forEach((otherItem) => {
+        if (otherItem !== item && otherItem.classList.contains("rl-testimonials__item--active")) {
+          const otherIcon = otherItem.querySelector(".rl-testimonials__item-toggle-icon");
+          const otherContent = otherItem.querySelector(".rl-testimonials__item-content");
 
           otherIcon.classList.remove("rotate");
 
@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
           otherContent.style.marginBottom = "0";
 
           setTimeout(() => {
-            otherItem.classList.remove("testimonials__item--active");
+            otherItem.classList.remove("rl-testimonials__item--active");
             otherContent.style.visibility = "hidden";
           }, 500);
         }
@@ -249,11 +249,11 @@ document.addEventListener("DOMContentLoaded", function () {
         content.style.marginBottom = "0";
 
         setTimeout(() => {
-          item.classList.remove("testimonials__item--active");
+          item.classList.remove("rl-testimonials__item--active");
           content.style.visibility = "hidden";
         }, 500);
       } else {
-        item.classList.add("testimonials__item--active");
+        item.classList.add("rl-testimonials__item--active");
         icon.classList.add("rotate");
 
         content.style.visibility = "visible";
@@ -273,25 +273,25 @@ document.addEventListener("DOMContentLoaded", function () {
 /* =============================
 * 6. Faq
 ============================= */
-document.querySelectorAll('.faq__toggle').forEach(toggle => {
+document.querySelectorAll('.rl-faq__toggle').forEach(toggle => {
   toggle.addEventListener('click', function () {
-    const item = this.closest('.faq__item');
-    const answer = item.querySelector('.faq__answer');
-    const isActive = item.classList.contains('faq__item--active');
+    const item = this.closest('.rl-faq__item');
+    const answer = item.querySelector('.rl-faq__answer');
+    const isActive = item.classList.contains('rl-faq__item--active');
 
     // Collapse all items first
-    document.querySelectorAll('.faq__item').forEach(i => {
-      const a = i.querySelector('.faq__answer');
+    document.querySelectorAll('.rl-faq__item').forEach(i => {
+      const a = i.querySelector('.rl-faq__answer');
       a.style.height = '0px';
-      i.classList.remove('faq__item--active');
+      i.classList.remove('rl-faq__item--active');
     });
 
     if (!isActive) {
-      item.classList.add('faq__item--active');
+      item.classList.add('rl-faq__item--active');
       answer.style.height = answer.scrollHeight + 'px';
 
       answer.addEventListener('transitionend', () => {
-        if (item.classList.contains('faq__item--active')) {
+        if (item.classList.contains('rl-faq__item--active')) {
           answer.style.height = 'auto';
         }
       }, { once: true });
@@ -303,7 +303,7 @@ document.querySelectorAll('.faq__toggle').forEach(toggle => {
 * 7. Back to Top
 ============================= */
 document.addEventListener("DOMContentLoaded", function () {
-  const scrollBtn = document.querySelector(".footer__scroll-top");
+  const scrollBtn = document.querySelector(".rl-footer__scroll-top");
 
   scrollBtn.addEventListener("click", function () {
     const duration = 1000;  
@@ -330,13 +330,13 @@ document.addEventListener("DOMContentLoaded", function () {
 * 8. Pricing Toggle Switch
 ============================= */
 document.addEventListener("DOMContentLoaded", () => {
-  const toggleBtns = document.querySelectorAll('.pricing__toggle-btn');
-  const prices = document.querySelectorAll('.pricing__price');
+  const toggleBtns = document.querySelectorAll('.rl-pricing__toggle-btn');
+  const prices = document.querySelectorAll('.rl-pricing__price');
 
   toggleBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      toggleBtns.forEach(b => b.classList.remove('pricing__toggle-btn--active'));
-      btn.classList.add('pricing__toggle-btn--active');
+      toggleBtns.forEach(b => b.classList.remove('rl-pricing__toggle-btn--active'));
+      btn.classList.add('rl-pricing__toggle-btn--active');
 
       const period = btn.dataset.period;
 
@@ -351,8 +351,8 @@ document.addEventListener("DOMContentLoaded", () => {
 * 9. Services Tab
 ============================= */
  document.addEventListener("DOMContentLoaded", () => {
-    const tabs = document.querySelectorAll(".services__tab");
-    const contents = document.querySelectorAll(".services__content");
+    const tabs = document.querySelectorAll(".rl-services__tab");
+    const contents = document.querySelectorAll(".rl-services__content");
 
     tabs.forEach(tab => {
       tab.addEventListener("click", () => {
@@ -361,7 +361,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         tab.classList.add("active");
         const target = tab.getAttribute("data-tab");
-        document.querySelector(`.services__content[data-content="${target}"]`).classList.add("active");
+        document.querySelector(`.rl-services__content[data-content="${target}"]`).classList.add("active");
       });
     });
 });
@@ -370,16 +370,16 @@ document.addEventListener("DOMContentLoaded", () => {
 * 10. Recent Work Filters
 ============================= */
 document.addEventListener("DOMContentLoaded", function () {
-  const filterButtons = document.querySelectorAll(".recent-work__filters li");
-  const cards = document.querySelectorAll(".work-card");
+  const filterButtons = document.querySelectorAll(".rl-recent-work__filters li");
+  const cards = document.querySelectorAll(".rl-work-card");
 
   filterButtons.forEach(button => {
     button.addEventListener("click", () => {
       const filter = button.getAttribute("data-filter");
 
       // Remove active class from all buttons
-      filterButtons.forEach(btn => btn.classList.remove("filter-active"));
-      button.classList.add("filter-active");
+      filterButtons.forEach(btn => btn.classList.remove("rl-filter-active"));
+      button.classList.add("rl-filter-active");
 
       // Filter cards
       cards.forEach(card => {
@@ -398,12 +398,12 @@ document.addEventListener("DOMContentLoaded", function () {
 * 11. Services Details Slider
 ============================= */
 document.addEventListener("DOMContentLoaded", function () {
-  if (document.querySelector('.hero__slider')) {
-    const serviceSlider = new Swiper('.hero__slider', {
+  if (document.querySelector('.rl-hero__slider')) {
+    const serviceSlider = new Swiper('.rl-hero__slider', {
       loop: true,
       navigation: {
-        nextEl: '.hero__slider-button-next',
-        prevEl: '.hero__slider-button-prev',
+        nextEl: '.rl-hero__slider-button-next',
+        prevEl: '.rl-hero__slider-button-prev',
       },
     });
   }
@@ -418,18 +418,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeMobile = document.getElementById('closeMobile');
 
   menuToggle.addEventListener('click', () => {
-    mobileMenu.classList.add('mobile-menu--open');
+    mobileMenu.classList.add('rl-mobile-menu--open');
   });
 
   closeMobile.addEventListener('click', () => {
-    mobileMenu.classList.remove('mobile-menu--open');
+    mobileMenu.classList.remove('rl-mobile-menu--open');
   });
 });
 
 /* =============================
 * 13. Responsive Menu
 ============================= */
-document.querySelectorAll('.mobile-menu__list .menu-item-has-children > a').forEach(link => {
+document.querySelectorAll('.rl-mobile-menu__list .rl-menu-item-has-children > a').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
     const parent = link.parentElement;
@@ -451,7 +451,7 @@ const lightbox = GLightbox({
 * 15. Video Slider
 ============================= */
 document.addEventListener("DOMContentLoaded", function () {
-  const videoSlider = new Swiper('.custom-slider', {
+  const videoSlider = new Swiper('.rl-custom-slider', {
     loop: true,
     navigation: {
       nextEl: '.next',
@@ -461,14 +461,3 @@ document.addEventListener("DOMContentLoaded", function () {
     fadeEffect: { crossFade: true },
   });
 });
-
-
-
-
-
-
-
-
-
-
-

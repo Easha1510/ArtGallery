@@ -2329,7 +2329,13 @@ span.rl-services__item-index {
   font-weight: 400;
   line-height: 1.5;
 }
-
+.rl-footer__copyright a{
+  color: #fff;
+  text-decoration: none;
+}
+.rl-footer__copyright a:hover{
+  color: #00FFF0;
+}
 /* =============================
 * 17. Footer Two Area
 ============================= */

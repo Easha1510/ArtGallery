@@ -1918,7 +1918,7 @@ span.rl-services__item-index {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--gray-base);
+  color: #fff;
   -webkit-text-stroke-color: var(--border-color);
 }
 
@@ -4942,6 +4942,53 @@ span.rl-testimonials__item-index {
 }
 
 @media (max-width:1600px) {
+   .rl-hero__content{
+    max-width: 800px;
+  }
+  .rl-hero--one .rl-hero__header-group{
+    gap: 3rem;
+    /* margin-left: 20px; */
+  }
+  .rl-hero--one .rl-hero__content-area{
+  gap: 0.5rem;
+
+  }
+  .rl-hero--one .rl-hero__image--left{
+  min-width: 480px;
+    
+  }
+  .rl-hero--one .rl-hero__image--left .rl-hero__image{
+  max-width: 430px;
+  }
+  .rl-hero__container{
+    padding-right: 0px;
+  }
+  .rl-hero__brand{
+    width: 250px;
+  }
+  .rl-hero__video-icon{
+    width: 100px;
+  }
+  .rl-awards__image img {
+    width: 250px;
+  }
+.rl-hero--one .rl-hero__stats-number{
+font-size: 3rem;
+}
+.rl-hero--one .rl-hero__video-icon-wrap{
+  max-width: 100px;
+  
+}
+.rl-hero--one .rl-hero__tagline{
+  font-size: 65px;
+}
+.rl-hero--one .rl-hero__text{
+  font-size: 16px;
+}
+.rl-hero__arrow{
+  margin-top: 0px;
+  width: 70px;
+}
   /* Hero / Home Two */
   .rl-hero--two .rl-hero__title,.rl-hero--two .rl-hero__subtitle{
     font-size: 7rem;
@@ -5010,6 +5057,7 @@ span.rl-testimonials__item-index {
 }
 
 @media (max-width: 1350px) {
+  
    /* Title Wrap Flex */
   .rl-title-wrap__flex{
     flex-direction: column;
@@ -5241,9 +5289,54 @@ span.rl-testimonials__item-index {
 }
 
 @media (max-width: 1024px) {
+
+  .rl-hero__content{
+    max-width: 500px;
+  }
+  .rl-hero--one .rl-hero__header-group{
+    gap: 3rem;
+    /* margin-left: 20px; */
+  }
+  .rl-hero--one .rl-hero__content-area{
+  gap: 0.5rem;
+
+  }
+  .rl-hero--one .rl-hero__image--left{
+  min-width: 370px;
+    
+  }
+  .rl-hero--one .rl-hero__image--left .rl-hero__image{
+  max-width: 320px;
+  }
+  .rl-hero__container{
+    padding-right: 0px;
+  }
+  .rl-hero__brand{
+    width: 150px;
+  }
+  .rl-hero__video-icon{
+    width: 50px;
+  }
   .rl-awards__image img {
     width: 150px;
   }
+.rl-hero--one .rl-hero__stats-number{
+font-size: 2rem;
+}
+.rl-hero--one .rl-hero__video-icon-wrap{
+  max-width: 50px;
+  
+}
+.rl-hero--one .rl-hero__tagline{
+  font-size: 45px;
+}
+.rl-hero--one .rl-hero__text{
+  font-size: 13px;
+}
+.rl-hero__arrow{
+  /* margin-top: -30px; */
+  width: 50px;
+}
 
   /* Video Slider */
   .rl-video-slider .swiper {
